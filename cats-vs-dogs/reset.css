@@ -74,3 +74,14 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
+body {
+	width:700px;}
+
+#container { position:relative; 
+	
+}
+
+header-logo {
+	position:center; width:400px; 
+}
+
