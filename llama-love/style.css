@@ -34,15 +34,14 @@ footer, header, hgroup, menu, nav, section {
 body {
 	width:960px;
 	margin-top:10px;
-	margin-left:300px;
 	background-color:white;
 	
 	
 }
 
 #main-content {
-	background-color:yellow;
-	padding:30px;
+	background-color:F7F8E0;
+	padding:60px;
 	float:left:200px;
 	float:right:200px;
 	
