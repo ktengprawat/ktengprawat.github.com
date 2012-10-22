@@ -32,24 +32,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-/*----------------- start -------------*/
-
-
-
-nav #top-menu {
-    list-style:none;
-    float:left;
-    margin:10px;
-    background-color:white;
-    padding:10px 14px;
-    color:white;
-    text-transform:uppercase;
-    font-family:Helvetica;
-  }
-
-
-
-
 ol, ul {
 	list-style: none;
 }
@@ -66,6 +48,22 @@ table {
 	border-spacing: 0;
 }
 
+
+
+/*----------------- start -------------*/
+
+
+
+nav #top-menu {
+    list-style:none;
+    float:left;
+    margin:10px;
+    background-color:white;
+    padding:10px 14px;
+    color:white;
+    text-transform:uppercase;
+    font-family:Helvetica;
+  }
 
 /* Center Content */
 
