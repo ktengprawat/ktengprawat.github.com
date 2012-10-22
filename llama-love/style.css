@@ -32,9 +32,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	width:300px;
-	margin-top:10px;
-	background-color:white;
+	width:900px;
+	margin-top:50px;
 	
 	
 }
@@ -42,12 +41,12 @@ body {
 #main-content {
 	background-color:#FFE4B5;
 	padding:60px;
-	float:right:50px;
+	float:right:500px;
 	
 }
 
 img{
-	width:200px;
+	width:180px;
 	
 }
 
