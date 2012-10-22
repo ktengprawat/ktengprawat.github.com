@@ -55,15 +55,17 @@ img{
 }
 
 #article-1{
-	float:left;
-	width:20px;
+	position:absolute;
+	top:20px;
+	left:20px;
 	margin:20px;
 
 	
 }
 
 #article-2{
-	float:right;
+	position:absolute;
+	top:20px;
 	
 }
 
