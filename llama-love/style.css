@@ -52,36 +52,29 @@ body {
 #img-one{
 	width:160px;
 	float:left;
-	margin-bottom:300px;
 
 	
 }
 
 #img-two{
-	position:absolute;
+	float:left;
 	width:160px;
-	top:20px;
-	margin-left:350px;
+
 
 }
 
 #section-one{
-	float:left;
-	top:190px;
-	left:20px;
-	width:20%;
-	height:60%;
-	margin:10px;
+	margin:100px;
+	padding:100px;
+	width:400px;
 
 	
 }
 
 #section-two{
-	float:right;
-	top:20px;
-	right:0px;
-	width:40%;
-	height:60%;
+	margin:100px;
+	padding:100px;
+	width:400px;
 	
 }
 
