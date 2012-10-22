@@ -35,6 +35,7 @@ body {
 	width:960px;
 	margin:0 auto;
 	font-size:15px;
+	background-color:#FFFFE0;
 	
 	
 }
@@ -42,37 +43,35 @@ body {
 #main-content {
 	background-color:#FFFFE0;
 	padding:60px;
-	position:relative;
 	bottom:30px;
 
 	
 }
 
 #img-one{
-	width:160px;
+	width:200px;
 	float:left;
-	
+	padding:10px;
+
 }
 
 #img-two{
 	float:left;
-	width:160px;
-	
+	width:200px;
+	padding:10px;
+	margin-left:0px;
+
 	
 
 }
 
-
-p{ 
-	width:300px;
+article{
+    float:left;
+    width:300px;
+    padding:20px;
+    
 }
 
-#article {
-	float:right;}
-	
-.head{
-	float:left;
-}
 
 /* Center Content */
 
