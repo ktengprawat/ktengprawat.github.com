@@ -57,13 +57,14 @@ body {
 #img-two{
 	width:180px;
 	float:right;
+	margin-top:20px;
 }
 
 #section-one{
 	position:absolute;
 	top:20px;
 	left:20px;
-	margin:20px;
+	width:20px;
 
 	
 }
@@ -71,6 +72,7 @@ body {
 #section-two{
 	position:absolute;
 	top:20px;
+	width:20px;
 	
 }
 
