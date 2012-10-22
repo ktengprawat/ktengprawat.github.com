@@ -37,6 +37,7 @@ body {
 	margin-bottom:50px;
 	margin-left:280px;
 	margin-right:50px;
+	font-size:20px;
 	
 	
 }
@@ -44,7 +45,7 @@ body {
 #main-content {
 	background-color:#FFFFE0;
 	padding:60px;
-	float:right:500px;
+
 	
 }
 
@@ -57,7 +58,7 @@ body {
 #img-two{
 	width:180px;
 	float:left;
-	margin-left:100px;
+	margin-left:300px;
 
 }
 
