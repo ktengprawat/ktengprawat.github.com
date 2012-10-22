@@ -46,11 +46,16 @@ body{
 	position:relative;
 	top:10px; 
 	left:50px;
+	width:550px;
+	height:150px;
+	margin:0 auto;
 }
 
 #top-menu {
     list-style:none;
     float:left;
+	width:600px;
+	height:50px;
     margin:10px;
     background-color:white;
     padding:10px 14px;
