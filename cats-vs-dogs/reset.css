@@ -34,6 +34,17 @@ footer, header, hgroup, menu, nav, section {
 
 /*----------------- start -------------*/
 
+#top-menu{
+	width:200px;
+	padding:10px;
+	
+}
+
+images/dogvscat-logo.gif{
+	width:400px;
+	border:20px;
+	margin-left:200px;
+}
 section-cat{
 	float:right;
 	padding:15px;
