@@ -34,8 +34,9 @@ footer, header, hgroup, menu, nav, section {
 
 /*----------------- start -------------*/
 
+<style>
 
-li {
+.menu {
     list-style:none;
     float:left;
     margin:10px;
@@ -45,6 +46,8 @@ li {
     text-transform:uppercase;
     font-family:Helvetica;
   }
+
+</style>
 
 
 ol, ul {
