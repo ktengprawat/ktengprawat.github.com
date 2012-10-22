@@ -70,7 +70,10 @@ body {
 
 p{ 
 	width:300px;
-	float:right}
+}
+
+#article {
+	float:right;}
 	
 .head{
 	float:left;
