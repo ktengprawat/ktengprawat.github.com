@@ -34,23 +34,17 @@ footer, header, hgroup, menu, nav, section {
 
 /*----------------- start -------------*/
 
-nav#top-menu{
-	width:200px;
-	padding:10px;
-	
-}
 
-header{
-	width:400px;
-	border:20px;
-	margin-left:200px;
-}
-section-cat{
-	float:right;
-	padding:15px;
-	width:350px;
-}
-
+li {
+    list-style:none;
+    float:left;
+    margin:10px;
+    background-color:white;
+    padding:7px 14px;
+    color:white;
+    text-transform:uppercase;
+    font-family:Helvetica;
+  }
 
 
 ol, ul {
