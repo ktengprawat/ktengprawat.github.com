@@ -48,13 +48,18 @@ body {
 	
 }
 
-img{
+#img-one{
 	width:180px;
-	margin-bottom:0px;
+	float:left;
 	
 }
 
-#article-1{
+#img-two{
+	width:180px;
+	float:right;
+}
+
+#section-one{
 	position:absolute;
 	top:20px;
 	left:20px;
@@ -63,7 +68,7 @@ img{
 	
 }
 
-#article-2{
+#section-two{
 	position:absolute;
 	top:20px;
 	
