@@ -52,14 +52,14 @@ body {
 #img-one{
 	width:160px;
 	float:left;
-
+	margin: 0px 10px 10px 0px
 	
 }
 
 #img-two{
 	float:left;
 	width:160px;
-
+	margin: 0px 10px 10px 0px
 
 }
 
