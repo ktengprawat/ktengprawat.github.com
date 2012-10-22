@@ -66,15 +66,19 @@ body {
 #section-one{
 	margin:100px;
 	padding:100px;
-	width:400px;
-
+	width:100px;
+	position:absolute;
+	top:20px;
+	
 	
 }
 
 #section-two{
+	position:absolute;
 	margin:100px;
 	padding:100px;
-	width:400px;
+	width:100px;
+	top:20px;
 	
 }
 
