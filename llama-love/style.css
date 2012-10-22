@@ -60,8 +60,7 @@ body {
 #img-two{
 	position:absolute;
 	width:160px;
-	float:left;
-	margin-bottom:500px;
+	top:20px;
 	margin-left:350px;
 
 }
@@ -78,7 +77,7 @@ body {
 }
 
 #section-two{
-	position:absolute;
+	float:right;
 	top:20px;
 	right:0px;
 	width:40%;
