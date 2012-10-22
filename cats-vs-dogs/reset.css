@@ -52,9 +52,18 @@ table {
 
 /*----------------- start -------------*/
 
+body{
+	width:960px;
+	margin:0 auto;
+}
 
+#site-header{
+	position:relative;
+	top:10px; 
+	left:50px;
+}
 
-nav #top-menu {
+#top-menu {
     list-style:none;
     float:left;
     margin:10px;
