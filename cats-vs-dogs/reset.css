@@ -34,9 +34,9 @@ footer, header, hgroup, menu, nav, section {
 
 /*----------------- start -------------*/
 
-<style>
 
-.menu {
+
+#top-menu {
     list-style:none;
     float:left;
     margin:10px;
@@ -47,7 +47,7 @@ footer, header, hgroup, menu, nav, section {
     font-family:Helvetica;
   }
 
-</style>
+
 
 
 ol, ul {
