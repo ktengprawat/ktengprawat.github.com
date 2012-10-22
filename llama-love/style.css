@@ -69,7 +69,8 @@ body {
 
 
 p{ 
-	width:300px;}
+	width:300px;
+	float:right}
 	
 .head{
 	float:left;
