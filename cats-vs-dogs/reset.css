@@ -32,8 +32,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1; width:300px; background-color:red;
 }
+
+#container{ position:relative; width:500px; height:200px; padding:20px;}
 ol, ul {
 	list-style: none;
 }
@@ -72,14 +74,4 @@ table {
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
-
-
-
-#container { position:relative; background-color:red; height:300px; width:400px; 
-	
-}
-
-#header-logo {
-	position:absolute; padding:100px; text-align:center; width:400px; 
-}
 
