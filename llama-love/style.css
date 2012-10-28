@@ -40,12 +40,19 @@ body {
 	
 }
 
+<<<<<<< HEAD
 #main-content {
 	background-color:#FFFFE0;
 	padding:60px;
 	bottom:30px;
 
 	
+=======
+.column1, .column2{
+	width:300px;
+	float:left;
+	margin:10px;
+>>>>>>> try
 }
 
 #img-one{
@@ -65,12 +72,15 @@ body {
 
 }
 
+<<<<<<< HEAD
 article{
     float:left;
     width:300px;
     padding:20px;
     
 }
+=======
+>>>>>>> try
 
 
 /* Center Content */
