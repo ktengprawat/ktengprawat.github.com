@@ -31,34 +31,47 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
+
+
+
+/*------------start here -----------*/
+
 body {
 	width:960px;
 	margin:0 auto;
 	font-size:15px;
-	background-color:#FFFFE0;
+	
 	
 	
 }
 
-<<<<<<< HEAD
-#main-content {
-	background-color:#FFFFE0;
-	padding:60px;
-	bottom:30px;
 
-	
-=======
-.column1, .column2{
-	width:300px;
-	float:left;
-	margin:10px;
->>>>>>> try
+.column1 {
+    width:240px;
+    float:left;
+    margin-top:200px;
+    
+
+
 }
+    
+
+
+.column2{
+	width:240px;
+	float:right;;
+	margin-top:200px;
+
+}
+
 
 #img-one{
 	width:200px;
 	float:left;
 	padding:10px;
+	margin-top:190px;
 
 }
 
@@ -66,21 +79,18 @@ body {
 	float:left;
 	width:200px;
 	padding:10px;
-	margin-left:0px;
+	margin-top:190px;
+	margin-left:20px;
 
-	
 
 }
 
-<<<<<<< HEAD
-article{
-    float:left;
-    width:300px;
-    padding:20px;
-    
-}
-=======
->>>>>>> try
+
+
+
+/*-----------------------------end--------------------*/
+
+
 
 
 /* Center Content */
