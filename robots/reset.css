@@ -127,7 +127,7 @@ body{
 
 
 
-/*--------------------------------clearfix----------------------------------------------*/
+/*--------------------------------left column paragraph ----------------------------------------------*/
 
 #page h1 {
     
@@ -151,19 +151,52 @@ body{
     margin-top:10px;
 }
 
-
-#page p 1{
+#head1{
     
     float:left;
-    width:20%
+    width:50%;
+    
 }
+
+#p1{
+    
+    float:left;
+    width:50%;
+    margin-top:50px;
+    margin-left:-480px;
+}
+
+#head2{
+    
+    float:left;
+    width:50%
+}
+#p2{
+    
+    float:left;
+    width:50%;
+    margin-top:50px;
+    margin-left:-480px;
+}
+
+
+
+/*--------------------------------side bar ----------------------------------------------*/
+
 
 
 #sidebar h1{
     float:right;
+    width:200px;
+    margin-left:10px;
+    margin-bottom:500px;
     
     
 }
+
+
+
+
 /*--------------------------------clearfix----------------------------------------------*/
 
 .clearfix:after {
