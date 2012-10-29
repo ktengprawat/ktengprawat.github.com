@@ -80,7 +80,17 @@ body{
     
 }
 
-
+#site-header h1 a {
+ display:block;  
+ width:300px; 
+ height:80px;  
+ background:url(images/logo.png) no-repeat top left; 
+ text-indent:-9999px;
+ margin-top:60px;
+ }
+ 
+ 
+ 
 /*---- log in - contact ---------*/
 
 #top-nav{ 
@@ -88,7 +98,7 @@ body{
    font-size:15px;
    float:right;
    margin-right:-650px;
-   margin-top:0px;
+   margin-top:-100px;
   
    
 
@@ -101,7 +111,7 @@ body{
 
     float:left;
     width:960px;
-    background-color:#8B4513;
+    background-color:#6C4F00;
     text-align:center;
     margin: 0px auto 20px auto;
     border:20px;
@@ -132,7 +142,7 @@ body{
 #page h1 {
     
     width:500px;
-    color:#8B4513;
+    color:#6C4F00;
     border:5px;
     font-size:300%;
     margin-bottom:10px;
@@ -185,17 +195,86 @@ body{
 
 
 
+/*------- dolor sit amet ----------*/
+
 #sidebar h1{
-    float:right;
+    float:left;
     width:200px;
-    margin-left:10px;
-    margin-bottom:500px;
+    margin-left:650px;
+    margin-top:-445px;
+    font-size:140%;
     
+    
+}
+
+#sidebar ul{
+    
+    float:left;
+    width:200px;
+    margin-left:650px;
+    margin-top:-400px;
+}
+
+#robotdog {
+    
+    float:left;
+    width:25%;
+    margin-left:650px;
+    margin-top:-250px;
     
 }
 
 
 
+#botss{
+    
+    float:left;
+    width:25%;
+    margin-left:650px;
+    margin-top:-120px;
+}
+
+
+#footer-contact {
+    
+    float:left;
+    width:200px;
+    margin-top:200px;
+    margin-bottom:50px;
+    padding:20px;
+    
+    
+}
+
+
+#footer-follow {
+    
+    float:left;
+    width:300px;
+    margin-top:200px;
+    margin-left:400px;
+    padding:10px;
+    
+    
+}
+
+
+#footer-follow li{
+     
+     float:left;
+     margin:10px;  
+    
+}
+
+footer{
+	
+	color:white;
+}
+
+footer section{
+    background-color:#6C4F00;
+    
+}
 
 /*--------------------------------clearfix----------------------------------------------*/
 
