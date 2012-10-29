@@ -50,3 +50,43 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+/*-----------------------------------start--------------------*/
+
+body{
+	width:960px;
+	margin:0 auto;
+
+
+} 
+
+
+
+nav #main-menu ul {
+
+    float:left;
+    width:200px;
+    font-size:30px;
+}
+
+
+/*--------------------------------clearfix----------------------------------------------*/
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+	}
+
+.clearfix { display: inline-block; }
+  html[xmlns] .clearfix { display: block; }
+  * html .clearfix { height: 1%; }
+  
+
+
+ 
