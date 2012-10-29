@@ -54,12 +54,200 @@ table {
 /*--------------start---------*/
 
 body{
+    width:960px;
+	margin:0 auto;
 	font-size:14px;
 	font-family:helvetica;
 	color:#DEB887;
+	
+}
+
+header{
+    margin-top:100px;
+    margin-bottom:20px;
+   
+}
+
+header h3{
+    font-size:20px;
+    font-weight:lighter;
+    margin-top:10px;
+    margin-left:75px;
 }
 
 h1{ 
-	font-size:18px;
-	}
+	font-size:40px;
+	margin-left:65px;
+
+}
+
+#cake{
+    float:left;
+    width:30%;
+   
+    margin-left:150px;
+    padding:10px;
+    
+}
+
+section{
+    
+    float:left;
+    width:100%;
+    
+}
+
+
+/*---------------------------------ingredients------------------------------------*/
+
+
+section h3{
+    float:left;
+    width:100px;
+    font-size:20px;
+    margin: 20px 0px 0px 30px
+   
+}
+
+section h4{
+    float:left;
+    font-weight:lighter;
+    margin-top:60px;
+    margin-left:-100px;
+   
+    
+    
+}
+
+#green-tea-ing{
+    
+    float:left;
+    width:30%;
+    font-size:100%;
+    line-height:140%;
+    margin-top:80px;
+    margin-left:-160px;
+    
+}
+
+
+
 	
+section ol{
+    margin-top:300px;
+    margin-bottom:0px;
+    
+    
+}
+/*-------greentea cream frosting ---------*/
+
+#frosting{
+    float:left;
+    width:30%;
+    font-weight:lighter;
+    margin-top:30px;
+    margin-left:30px;
+    
+    
+}
+
+
+#frosting1{
+    float:left;
+    margin-top:10px;
+    margin-left:30px;
+    font-size:100%;
+    line-height:140%;
+    width:30%;
+    
+}
+
+#direction{
+    
+    float:left;
+    width:20px;
+    margin-top:90px;
+    margin-left:-600px;
+    font-weight:bolder;
+    width:100px;
+    font-size:20px;
+    
+}
+
+
+/*-------for cake ---------*/
+
+#forcake{
+    float:left;
+    width:200px;
+    margin-top:200px;
+    margin-left:-700px;
+    font-weight:lighter;
+    font-size:110%
+    
+  
+   
+}
+
+
+section ol{
+    float:left;
+    width:100%;
+    margin-top:10px;
+    margin-left:100px;
+    line-height:140%;
+    list-style-type:decimal;
+    
+}
+
+/*-------for buttercream frosting ---------*/
+
+#cream-frosting{
+    float:left;
+    margin-top:40px;
+    margin-left:80px;
+    font-weight:lighter;
+    font-size:110%
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    float:right;
+    width:100%;
+    font-size:11px;
+    margin-top:60px;
+    margin-right:-230px;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+
+/*--------------------- Center Content */
+
+.centered { 
+  margin:0 auto;
+  width:960px;
+}
+
+
+/* Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
