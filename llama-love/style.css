@@ -42,16 +42,33 @@ body {
 	width:960px;
 	margin:0 auto;
 	font-size:15px;
+	line-height:20px;
+	font-family:helvetica;
+
 	
 	
 	
 }
 
+h1{
+    font-family:georgia;
+    font-size:100%;
+    font-weight:bold;
+    border:5px;
+}
 
+
+h2{
+    color:#808080;
+    
+}
 .column1 {
-    width:240px;
-    float:left;
+    
+    
+    width:50%;
     margin-top:200px;
+    border:35px;
+    
     
 
 
@@ -60,10 +77,11 @@ body {
 
 
 .column2{
-	width:240px;
-	float:right;;
-	margin-top:200px;
-
+	width:50%;
+	float:left;
+	margin-top:-340px;
+	margin-left:520px;
+    margin-bottom:100px;
 }
 
 
@@ -71,7 +89,7 @@ body {
 	width:200px;
 	float:left;
 	padding:10px;
-	margin-top:190px;
+	margin-top:-10px;
 
 }
 
@@ -79,8 +97,8 @@ body {
 	float:left;
 	width:200px;
 	padding:10px;
-	margin-top:190px;
-	margin-left:20px;
+	margin-top:-10px;
+	margin-left:0px;
 
 
 }
