@@ -39,9 +39,11 @@ footer, header, hgroup, menu, nav, section {
 
 
 
+
 body{
 	width:960px;
 	margin:0 auto;
+	font-family:helvetica;
 
 	
 }
@@ -93,6 +95,11 @@ body{
         
 }
 
+#top-menu li:first-child {
+	list-style:none;
+}
+
+
 /*-------------------nav link end ----------------------------------*/
   
   
@@ -127,7 +134,7 @@ section-cat {
     
     width:420px;
     float:right;
-    margin-top:10px;
+    margin-top:30px;
     margin-right:10px;
     margin-bottom:30px;
  
@@ -143,16 +150,49 @@ h2{
 
 
 footer{
-    
+    font-family:time;
     font-size:12px;
     float:right;
     width:960px;
     margin-right:-22px;
+    margin-top:20px;
     padding:20px;
     border-top:5px solid black;
 
 }
 
+p#img{
+    float: left;
+    margin-left:-20px;
+    width:40%;
+}
+
+p#wiki{
+    
+    color:red;
+    float:left;
+    margin-left:-275px;
+    width:20%;
+}
+
+p#martha{
+    
+    float:right;
+    width:10%;
+    margin-right:-190px;
+    color:red;
+    
+}
+
+p#copy{
+
+    float:right;
+    width:20%;
+    margin-right:-60px;
+    
+    
+    
+}
 /*-------------------------------------end--------------------------------*?
 
 ol, ul {
