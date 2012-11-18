@@ -47,10 +47,16 @@ table {
 	border-spacing: 0;
 }
 
-/* Add Styles Here */
-body { font-family:Times; font-size:14px; }
+/* STYLE START */
+
+body { font-family:helvetica;  font-size:15px; }
 section#content { margin:0 auto; width:960px; padding:20px 0px; }
 
-h1 { font-size:48px; font-weight:bold; color:black; text-align:center; }
-h2 { font-size:36px; font-weight:bold; color:black; text-align:center; }
-p { padding-bottom:10px;text-align:center; }
+h1 { font-size:48px; font-weight:bold; text-align:center; margin:40px 0px 20px; color:orange; }
+h2 { font-size:30px; font-weight:lighter; color:black; text-align:center;  margin:10px 0px 50px;}
+p { margin-top:260px; padding-bottom:40px;text-align:center; }
+img { float:left; margin:-250px 380px 100px ; width: 20%;}
+
+
+
+
