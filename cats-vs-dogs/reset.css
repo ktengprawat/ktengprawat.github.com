@@ -197,8 +197,10 @@ p#copy{
 
 
 @media only screen and (max-width:600px) {
-    #dog { float:none; width:50%; margin:0 1%; }
+    #dog { width:20% }
     #menu { float:none; width:30%; margin:0 1%; }
+	#cat { width:30%}
+	#meme{width:30%}
 
 
 }
