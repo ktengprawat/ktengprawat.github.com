@@ -236,3 +236,12 @@ table {
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
+
+
+/*----------------------- responsive -------------------------*/
+
+@media screen and (max-width:400px) {
+    #dog { float:left; width:50%; margin:0 1%; }
+    #menu { float:none; width:30%; margin:0 1%; }
+
+}
