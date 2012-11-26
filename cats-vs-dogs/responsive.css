@@ -1,7 +1,11 @@
 
-@media screen and (max-width:400px) {
-    #dog { float:none; width:50%; margin:0 1%; }
+
+
+@media only screen and (max-width:480px) {
+    #dog { width:20% }
     #menu { float:none; width:30%; margin:0 1%; }
+	#cat { width:30%}
+	#meme{width:30%}
 
 
 }
