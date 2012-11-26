@@ -1,11 +1,19 @@
 
 
 
+
+
 @media only screen and (max-width:480px) {
-    #dog { width:20% }
-    #menu { float:none; width:30%; margin:0 1%; }
-	#cat { width:30%}
-	#meme{width:30%}
+    #dog { float:left; margin-left:3%; width:40% }
+    #top-menu { float:left; width:45%; margin:0% 16% 1% 0%; font-size:.5em;}
+	#top-menu li{ margin:1% 5.4%; }
+	#cat { float:left; width:40%; margin-top:0%; margin-left:4% }
+	#meme{float:left; width:40%; margin-top:58%; margin-left:-40%}
+	section-dog{ float:left; margin: 35% -36%;width:30%;}
+	section-cat { float:left;width:35%; margin-top:90%; margin-left:-39%;}
+	p#wiki { float:left; margin-left:-13%;width:40%;}
+    footer{ float:left; font-size:.5em; width:35%; margin-top:115%; margin-left:-40%;}
+    
 
 
 }
