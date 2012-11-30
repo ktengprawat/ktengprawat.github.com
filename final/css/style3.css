@@ -1,5 +1,5 @@
 body {
-	background: #ffdd00;
+	background: gainsboro;
 	font-family: 'MisoRegular';
 }
 h1.main,p.demos {
@@ -12,9 +12,9 @@ h1.main,p.demos {
 	width: 900px;
 	height: 400px;
 	position: relative;
-	margin: 80px auto 0px auto;
+	margin: 150px auto 0px 200px;
 }
-.sp-content {
+.sp-content  {
 	width: 100%;
 	height: 400px;
 	position: relative;
@@ -44,12 +44,12 @@ h1.main,p.demos {
 	line-height: 80px;
 	float: left;
 	position: relative;
-	background: #ffdd00;
+	background: gainsboro;
 	overflow: hidden;
 }
 .sp-wrap span {
 	display: block;
-	background: #ffdd00;
+	background: gainsboro;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
 	opacity: 0;
@@ -66,7 +66,7 @@ h1.main,p.demos {
 .sp-wrap span.sp-mid {
 	font-family: 'MisoBold';
 	text-transform: uppercase;
-	font-size: 160px;
+	font-size: 100px;
 	line-height: 130px;
 	position: relative;
 }
@@ -111,7 +111,7 @@ h1.main,p.demos {
 }
 .sp-wrap i {
 	position: absolute;
-	background: #ffdd00;
+	background: gainsboro ;
 	width: 60px;
 }
 .sp-wrap i:first-child {
@@ -137,6 +137,9 @@ h1.main,p.demos {
 	-ms-animation: fadeIn 1s linear 6.6s backwards;
 	animation: fadeIn 1s linear 6.6s backwards;
 }
+
+/*--------------- let's check it out-------------- */
+
 .sp-full a {
 	background: #000;
 	color: #fff;
@@ -146,16 +149,22 @@ h1.main,p.demos {
 	padding: 10px 20px;
 	display: inline-block;
 	font-size: 30px;
-	margin-top: 100px;
+	margin-left:450px;
 	
 	-webkit-animation: zoomIn 0.7s ease-in-out 7s backwards;
 	-moz-animation: zoomIn 0.7s ease-in-out 7s backwards;
 	-ms-animation: zoomIn 0.7s ease-in-out 7s backwards;
 	animation: zoomIn 0.7s ease-in-out 7s backwards;
 }
+
+
+/*---------------i'm kanyanat-------------- */
 .sp-full h2 {
-	width: 400px;
+	color: rgb(125, 119, 128);
+	width: 800px;
 	padding: 0px 50px 0px 0px;
+	margin-left:30px;
+	margin-top:25px;
 	float: left;
 	text-align: right;
 }
