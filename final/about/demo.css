@@ -12,24 +12,12 @@ a{
 	text-decoration: none;
 }
 a:hover{
-	color: #000;
+	color: orange;
 }
 .clr{
 	clear: both;
 }
-.wrapper{
-	position: relative;
-	width: 100%;
-}
-.wrapper p{
-	clear: both;
-	font-size: 24px;
-	line-height: 40px;
-	text-align: center;
-}
-.reference{
-	padding-top: 40px;
-}
+
 .homelink{
 	font-size: 50px;
 	float:left;
@@ -42,11 +30,37 @@ a:hover{
 	margin-top:3%;
 	margin-bottom:2%;
 }
-h1 span{
-	font-family: 'Playfair Display', serif;
-	font-style: italic;
-	text-transform: none;
-	font-size: 20px;
+
+
+h1 {
+    
+    color:orange;
+    font-size:4em;
+    float:right;
+    margin-top:18%;
+    margin-right:15%;
+    padding:5px;
+}
+
+
+#mepic {
+    
+    width:30%;
+    height:20%;
+    float:left;
+    margin-top:5%;
+    margin-left:-400px;
+}
+
+
+p{
+     font-size:2em; 
+    color:grey;
+    width:30%;
+    float:right;
+    margin-right:250px;
+    
+    
 }
 /* Header Style */
 .header{
