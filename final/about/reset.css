@@ -1,97 +1,41 @@
-
-
-
-
-
-
-
-/* ------------------work about contact link  ------------------- */
-
-
-
-
-.menu{
-	margin:top:-35%;
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
 }
-
-
-#top-menu{
-	
-	float:right;
-	width:25%;
-	text-align:center;
-	margin:3% 2% auto auto;
-    color:white;
-}
-
-#top-menu li{
-	font-size:3em;
-	color:white;
-    float:left;
-    margin:4%;
-   
-  
-}
-
-
-
-/* ------------------my name home link ------------------- */
-
-.homelink{
-	font-size: 50px;
-	float:left;
-	color: white;
-	font-weight: 400;
-	text-shadow: 0px 0px 1px rgba(0,0,0,0.3);
-	z-index:1000;
-	text-transform: uppercase;
-	margin-left:5%;
-	margin-top:3%;
-	margin-bottom:2%;
-
-
-
-/* ------------------------------------- */
-
-
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+html,body {
+	margin:0;
+	padding:0;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+	border-collapse:collapse;
+	border-spacing:0;
 }
-
-
-
-
-
-/* Center Content */
-
-.centered { 
-  margin:0 auto;
-  width:960px;
+fieldset,img { 
+	border:0;
 }
-
-
-/* Clearfix */
-.clearfix:after {
-	content: ".";
-	display: block;
-	clear: both;
-	visibility: hidden;
-	line-height: 0;
-	height: 0;
+input{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:190px;
 }
- 
-.clearfix { display: inline-block; }
-html[xmlns] .clearfix { display: block; }
-* html .clearfix { height: 1%; }
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
