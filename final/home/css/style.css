@@ -2,7 +2,7 @@
 	position: relative;
 	width: 100%;
 	max-width: 1920px;
-	height: 625px;
+	height: 500px;
 	margin: 0 auto;
 }
 .ei-slider-loading{
@@ -130,6 +130,8 @@
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 @media screen and (max-width: 830px) {
+
+	
 	.ei-title{
 		position: absolute;
 		right: 0px;
