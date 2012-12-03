@@ -1,0 +1,97 @@
+
+
+
+
+
+
+
+/* ------------------work about contact link  ------------------- */
+
+
+
+
+.menu{
+	margin:top:-35%;
+}
+
+
+#top-menu{
+	
+	float:right;
+	width:25%;
+	text-align:center;
+	margin:3% 2% auto auto;
+    color:white;
+}
+
+#top-menu li{
+	font-size:3em;
+	color:white;
+    float:left;
+    margin:4%;
+   
+  
+}
+
+
+
+/* ------------------my name home link ------------------- */
+
+.homelink{
+	font-size: 50px;
+	float:left;
+	color: white;
+	font-weight: 400;
+	text-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+	z-index:1000;
+	text-transform: uppercase;
+	margin-left:5%;
+	margin-top:3%;
+	margin-bottom:2%;
+
+
+
+/* ------------------------------------- */
+
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* Center Content */
+
+.centered { 
+  margin:0 auto;
+  width:960px;
+}
+
+
+/* Clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
