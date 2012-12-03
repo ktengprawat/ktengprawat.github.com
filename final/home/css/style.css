@@ -1,18 +1,18 @@
 #top-menu{
 	
 	float:right;
-	border:5px solid white;
+	width:20%;
 	text-align:center;
 	margin:2% auto 2% auto;
     color:white;
 }
 
 #top-menu li{
-	font-size:.75em;
+	font-size:3em;
 	color:white;
     float:left;
-    margin:1% 3% 1% 8.5%;
-        
+    margin-top:5%;
+	margin-right:5%;
 }
 
 
