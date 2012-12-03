@@ -31,7 +31,7 @@ a:hover{
 	padding-top: 40px;
 }
 .homelink{
-	font-size: 54px;
+	font-size: 50px;
 	position:relative;
 	color: white;
 	font-weight: 400;
@@ -40,9 +40,7 @@ a:hover{
 	z-index:1000;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top:5%;
-	margin-right:60%;
-	margin-bottom:2%;
+
 }
 h1 span{
 	font-family: 'Playfair Display', serif;
