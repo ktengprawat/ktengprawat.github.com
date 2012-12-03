@@ -1,3 +1,14 @@
+#top-menu{
+	
+	float:left;
+	border:5px solid white;
+	text-align:center;
+	margin:2% auto 2% auto;
+    color:white;
+}
+
+
+
 .ei-slider{
 	position: relative;
 	width: 100%;
