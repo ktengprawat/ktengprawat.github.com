@@ -1,9 +1,14 @@
+.menu{
+	margin:top:-35%;
+}
+
+
 #top-menu{
 	
 	float:right;
 	width:20%;
 	text-align:center;
-	margin:2% auto 2% auto;
+	margin:3% auto 3% auto;
     color:white;
 }
 
@@ -11,8 +16,7 @@
 	font-size:3em;
 	color:white;
     float:left;
-    margin-top:5%;
-	margin-right:5%;
+  
 }
 
 
