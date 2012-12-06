@@ -134,7 +134,7 @@ body{
 }
 
 
-section-dog{
+section .dog{
     float:left;
     width:45%;
     margin-top:38%;
@@ -142,7 +142,7 @@ section-dog{
 
     
 }
-section-cat {
+section .cat {
     
     
     width:45%;
