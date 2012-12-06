@@ -1,15 +1,32 @@
 
-@media only screen and (max-width:860px) /{
-    #dog { float:left; margin-left:3%; width:20% }
-    #top-menu { float:left; width:45%; margin:0% 16% 1% 0%; font-size:.5em;}
-	#top-menu li{ margin:1% 5.4%; }
-	#cat { float:left; width:40%; margin-top:0%; margin-left:4% }
-	#meme{float:left; width:40%; margin-top:58%; margin-left:-40%}
-	section-dog{ float:left; margin: 35% -36%;width:30%;}
-	section-cat { float:left;width:35%; margin-top:90%; margin-left:-39%;}
-	p#wiki { float:left; margin-left:-13%;width:40%;}
-    footer{ float:left; font-size:.5em; width:35%; margin-top:115%; margin-left:-40%;}
+@media only screen and (max-width:860px) {
+    #top-menu { float:left; width:55%; margin-top:22%; margin-left:-40%; font-size:.90em;}
+	#top-menu li{ margin:1% 4%; }
+	
     
+    
+    #cat { float:left; width:25%; margin-top:33%; margin-left:-57% }
+  	#meme{float:left; width:25%; margin-top:58%; margin-left:-57%}
+
+	
+	p#copy { float:right; margin-right:5%;}
+	p#martha { float:right; margin-right:-32%; width:15%;}
+	p#wiki { float:left; margin-left:-20%;width:40%;}
+    footer{ float:left; font-size:.70em; width:55%; margin-top:5%; margin-left:10%; }
+    
+    #logo { float:left; margin-left:10%; width:5%;}
+    #logo3 { float:left; margin-left:2%; width:5%;}
+    #logo2 { float:left; width:8%; margin-left:20%; }
+
+
+
+    .dog{
+        float:right; font-size:1em; width:30%; margin-right:30%; margin-top:33% }
+    
+    .cat{ 
+        float:right; font-size:1em; width:30%; margin-right:30%; margin-top:8%}
+}
+
 
 
 }
