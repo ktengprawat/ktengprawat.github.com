@@ -1,10 +1,6 @@
 
-
-
-
-
-@media only screen and (max-width:480px) {
-    #dog { float:left; margin-left:3%; width:40% }
+@media only screen and (max-width:860px) /{
+    #dog { float:left; margin-left:3%; width:20% }
     #top-menu { float:left; width:45%; margin:0% 16% 1% 0%; font-size:.5em;}
 	#top-menu li{ margin:1% 5.4%; }
 	#cat { float:left; width:40%; margin-top:0%; margin-left:4% }
