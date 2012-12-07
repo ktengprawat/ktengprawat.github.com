@@ -56,15 +56,27 @@ table {
 /*-----------------------------------start--------------------*/
 
 body{
-	width:960px;
+	width:100%;
 	margin:0 auto;
-	
-
+	font-family:helvetica;
 
 } 
 
+
+#menu-wrapper {
+    position: relative;
+    width:100%;    
+    background:red;
+    clear:both;
+
+    
+    
+}
+
 #site-wrapper{
-    float:left;
+    clear:both;
+	margin:0 auto;
+	position: relative;
     width:100%;
     height:150px;
     background:#EEFADF;
@@ -72,22 +84,31 @@ body{
     
 }
 
+
+
+
 #site-header {
     float:left;
     width:300px;
+    height:25%;
     font-size:20px;
+    margin-left:19%;
+    margin-top:2%;
+    
    
     
     
 }
 
+
+
+
 #site-header h1 a {
  display:block;  
- width:300px; 
- height:80px;  
+ width:120%; 
+ height:120px;  
  background:url(images/logo.png) no-repeat top left; 
  text-indent:-9999px;
- margin-top:60px;
  }
  
  
@@ -96,14 +117,21 @@ body{
 
 #top-nav{ 
     
-   font-size:15px;
+   font-size:.80em;
    float:right;
-   margin-right:-650px;
-   margin-top:-100px;
+   margin-right:-260%;
+   margin-top:-40%;
+  text-decoration:none;
   
    
 
 }
+
+#main-menu nav{text-decoration:none}
+
+a{text-decoration:none;
+	color:brown;}
+
    
 
 /*-------------- shop about us newproducts contact links ---------------------*/
@@ -111,29 +139,42 @@ body{
 #main-menu{
 
     float:left;
-    width:960px;
+    width:100%;;
     background-color:#6C4F00;
     text-align:center;
-    margin: 0px auto 20px auto;
-    border:20px;
+   
+    letter-spacing:2px;
+    word-spacing:5px;
 }
 
 #main-menu a{
+    float:left;
+    width:100%;
+    margin-left:30px;
     text-transform:uppercase;
     text-decoration:none;
     color:white;
-    font-size:80%;
-    padding:3px;
+    font-size:1em;
+
     
 
     
+}
+
+#main-menu ul {
+      
+      margin-left:16%;
+
+
+
 }
 
 #main-menu li{
     
     float:left;
-    margin:5px 0px 5px 20px;
-    
+    margin-left:1%;
+    margin-top:.75%;
+    margin-bottom:.75%;
 }
 
 
@@ -145,9 +186,14 @@ body{
     width:500px;
     color:#6C4F00;
     border:5px;
-    font-size:300%;
+    font-size:3.5em;
+    font-family: geogia ;
+    font-style: italic;
+    float:left;
+    margin-top:3%;
+    margin-left:19%;
     margin-bottom:10px;
-    font-style:italic;
+
     padding:5px;
     
 }
@@ -155,39 +201,42 @@ body{
 #page h2{
     
     float:left;
-    width:960px;
-    font-size:140%;
+    width:80%;
+    font-size:1.5em;
+    color:#7D5403;
     padding:5px;
+    margin-left:19%;
     margin-bottom:10px;
-    margin-top:10px;
+    margin-top:1.5%;
 }
 
 #head1{
     
     float:left;
-    width:50%;
-    
+    width:35%;
+    margin-left:19.5%
 }
 
 #p1{
     
     float:left;
-    width:50%;
-    margin-top:50px;
-    margin-left:-480px;
+    width:36%;
+    margin-top:2.5%;
+    margin-left:-35%;
 }
 
 #head2{
     
     float:left;
-    width:50%
+    width:35%;
+    margin-left:19.5%;
 }
 #p2{
     
     float:left;
-    width:50%;
+    width:36%;
     margin-top:50px;
-    margin-left:-480px;
+    margin-left:-35%;
 }
 
 
@@ -199,11 +248,13 @@ body{
 /*------- dolor sit amet ----------*/
 
 #sidebar h1{
+        color:#7D5403;
+
     float:left;
-    width:200px;
-    margin-left:650px;
-    margin-top:-445px;
-    font-size:140%;
+    width:30%;
+    margin-left:150px;
+    margin-top:-270px;
+    font-size:1.5em;
     
     
 }
@@ -211,17 +262,17 @@ body{
 #sidebar ul{
     
     float:left;
-    width:200px;
-    margin-left:650px;
-    margin-top:-400px;
+    width:30%;
+    margin-left:160px;
+    margin-top:-230px;
 }
 
 #robotdog {
     
     float:left;
-    width:25%;
-    margin-left:650px;
-    margin-top:-250px;
+    width:15%;
+    margin-left:10%;
+    margin-top:-5%;
     
 }
 
@@ -230,34 +281,33 @@ body{
 #botss{
     
     float:left;
+    width:15%;
+    margin-left:10%;
+    margin-top:1%;
+}
+
+
+#footer-contact{
+    
+    float:left;
+    width:100%;
+    margin-top: 3%;
+    height:150px;
+    border-bottom:3%;
+        
+    
+}
+
+#site-footer p{
+    float:left;
+    font-size:.90em;
     width:25%;
-    margin-left:650px;
-    margin-top:-120px;
+    margin-left:20%;
+    margin-top:1%;
+   
 }
 
 
-#footer-contact {
-    
-    float:left;
-    width:200px;
-    margin-top:200px;
-    margin-bottom:50px;
-    padding:20px;
-    
-    
-}
-
-
-#footer-follow {
-    
-    float:left;
-    width:300px;
-    margin-top:200px;
-    margin-left:400px;
-    padding:10px;
-    
-    
-}
 
 
 #footer-follow li{
@@ -277,21 +327,27 @@ footer section{
     
 }
 
-footer #footer-contact {
-    background-color:##6C4F00;
+footer h1 {
+    color:#DDBD7D;
+
     width:100%;
+    float:left;
+    margin-left:20%;
+    margin-top:2%;
+    font-size:1.5em;
+    
     
 }
 footer li {
     float:right;
-    width:20;
-    margin-top:-5%;
-    padding:10px;
+    width:3%;
+    margin-top:1%;
+    margin-right:3%;
 }
-footer p {
-    width:30%;
-    
-    
+
+
+footer ul{
+    margin-right:21%;
 }
 
 
@@ -299,8 +355,8 @@ footer #follow {
     
     float:right;
     width:10%;
-    margin-top:-65px;
-    margin-right:120px;
+    margin-top:-1.5%;
+    margin-right:25%;
 }
 
 
