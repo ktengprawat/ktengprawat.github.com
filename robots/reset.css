@@ -248,12 +248,13 @@ a{text-decoration:none;
 /*------- dolor sit amet ----------*/
 
 #sidebar h1{
-        color:#7D5403;
+    
+	color:#7D5403;
 
     float:left;
     width:30%;
     margin-left:150px;
-    margin-top:-270px;
+    margin-top:-274px;
     font-size:1.5em;
     
     
