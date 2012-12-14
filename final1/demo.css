@@ -71,6 +71,15 @@ h1{
 
 
 
+h2 {
+    
+    
+    float:left;
+    width:40%;
+    font-size:3em;
+    margin-left:20%;
+}
+
 /* Header Style */
 .header{
     
@@ -131,17 +140,18 @@ h1{
     
     float:right;
     margin-right:45%;
+    margin-top:-7%;
 }
 
 .email{
     margin-right:45%;
-    margin-top:2%;
+    margin-top:-2%;
 }
 
 .web{
     
     margin-right:45%;
-    margin-top:2%;
+    margin-top:-1.5%;
 }
 input, textarea { 
     
@@ -165,7 +175,7 @@ textarea {
 	height: 150px;
 	line-height: 150%;
 	float:right;    
-	margin-top:-13%;
+	margin-top:-25%;
     margin-right:95%;
 	}
 
@@ -203,7 +213,7 @@ input:focus, textarea:focus {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	float:right;    
-	margin-top:45%;
+	margin-top:35%;
     margin-right:22%;
 	}
 
