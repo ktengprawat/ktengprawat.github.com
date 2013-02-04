@@ -2844,6 +2844,7 @@ table th[class*="span"],
 
 .dropdown-toggle {
   *margin-bottom: -3px;
+	color:white;
 }
 
 .dropdown-toggle:active,
@@ -4733,7 +4734,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar-inverse .brand {
-  color: white;
+  color: #999999;
 }
 
 .navbar-inverse .navbar-text {
