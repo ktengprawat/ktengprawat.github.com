@@ -87,7 +87,7 @@ h1 {
 }
 
 
-.wheels {
+.circle {
 	width: 300px;
 	height: 300px;
 	background: none;
@@ -101,7 +101,7 @@ h1 {
         
 }
 
-.wheels:after {
+.circle:after {
 	content:"";
 	width: 280px;
 	height: 280px;
@@ -115,7 +115,7 @@ h1 {
         left:560px;
 }
 
-.frontline {
+.con {
     width:35px;
     height:500px;
     position:absolute;
@@ -128,7 +128,7 @@ h1 {
 
 
 
-.backline {
+.con2{
     width:30px;
     height:400px;
     position:absolute;
@@ -139,7 +139,7 @@ h1 {
     border-radius:15px;
 }
 
-.halfcircle {
+.handle{
     
     
   position:absolute;
@@ -155,7 +155,7 @@ h1 {
 }
 
 
-.seat {
+.scircle {
     
     width: 160px;
 	height: 50px;
@@ -169,7 +169,7 @@ h1 {
     
 }
 
-.handle {
+.scircle1 {
     
   position:absolute;
   top: 955px;
@@ -180,7 +180,7 @@ h1 {
   border-radius:15px;
 }
 
-.scircle_front {
+.scirclemiddle {
     
    position:absolute;
   top: 1470px;
@@ -191,7 +191,7 @@ h1 {
   border-radius:100px;
 }
 
-.scircle_back {
+.feet {
         
   position:absolute;
   top: 1450px;
@@ -207,7 +207,7 @@ h1 {
 
 /*---------------------pizza cutter---------------------------*/
 
-.bigcircle{
+.tri{
     width: 350px;
 	height: 350px;
 	background-color:#F0F0F0  ;
@@ -223,7 +223,7 @@ h1 {
 
 
 
-.smallcircle{
+.cir{
     
     width: 60px;
 	height: 60px;
@@ -235,7 +235,7 @@ h1 {
     
 }
 
-.middlesquare{
+.stick{
   
   position:absolute;
           top: 2030px;
@@ -250,7 +250,7 @@ h1 {
 }
 
 
-.metal_middle{
+.cir1{
     
     width:250px;
     height:10px;
@@ -262,7 +262,7 @@ h1 {
 }
 
 
-.metal_right{
+.cir2{
       width:100px;
     height:10px;
     position:absolute;
@@ -274,7 +274,7 @@ h1 {
 
 }
 
-.metal_left{
+.bottom{
     width:100px;
     height:10px;
     position:absolute;
@@ -289,7 +289,7 @@ h1 {
     
 }
 
-.connect_handle{
+.bottom1{
     
     width:150px;
     height:80px;
@@ -301,7 +301,7 @@ h1 {
 }
 
 
-.handle{
+.left{
     width:180px;
     height:450px;
     background-color:#D8D8D8 ;
