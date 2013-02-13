@@ -1,3 +1,38 @@
+
+/*---------------------TV is not working ----------------------------*/
+
+
+.wrapper {width:500px; border:1px solid #aaa; margin:0 auto; overflow:hidden; border-radius:8px;}
+.textmove{
+position:relative;
+overflow:hidden;
+float:left;
+}
+
+
+.textmove span{font:1.5em arial, sans-serif; padding-left:10px;
+white-space: nowrap;
+display:inline;
+position: relative;
+left:0%;
+-moz-animation: marquee 15s infinite linear 3s;
+-webkit-animation: marquee 15s infinite linear 3s;
+}
+
+
+.textmove:hover span{
+-webkit-animation-play-state: paused;
+-moz-animation-play-state: paused;
+}
+.textmove span:after {content:attr(rel); display:inline; color:black; padding-left:10px;}
+@-webkit-keyframes marquee{
+0% {left: 0%;}
+100% {left: -50%;}
+}
+
+
+
+
 /*---------------------TV----------------------------*/
 
 h1 {
