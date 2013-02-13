@@ -2,9 +2,9 @@
 /*---------------------TV is not working ----------------------------*/
 
 
-.wrapper {width:500px; border:1px solid #aaa; margin:0 auto; overflow:hidden; border-radius:8px;}
+.wrapper {width:700px; margin:0 auto; overflow:hidden; border-radius:8px;}
 .textmove{
-position:relative;
+position:relative; left:180px; 
 overflow:hidden;
 float:left;
 }
@@ -27,7 +27,7 @@ left:0%;
 .textmove span:after {content:attr(rel); display:inline; color:black; padding-left:10px;}
 @-webkit-keyframes marquee{
 0% {left: 0%;}
-100% {left: -50%;}
+100% {left: -20%;}
 }
 
 
