@@ -1,0 +1,54 @@
+
+
+h1{
+    position:absolute;
+    top:20%;
+    left:13%;
+    
+}
+
+h3{
+    
+    position:absolute;
+    width:70%;
+    height:50%;
+    font-size:1em;
+    top:30%;
+    left:13%;
+}
+
+.pic1{
+    
+    position:absolute;
+    width:30%;
+    height:60%;
+    top:70%;
+    left:50%;
+}
+
+.pic2{
+    
+    position:absolute;
+    width:30%;
+    height:60%;
+    top:140%;
+    left:13%;
+}
+
+.pic3{
+    
+    position:absolute;
+    width:30%;
+    height:60%;
+    top:70%;
+    left:13%;
+}
+
+.pic4{
+    
+    position:absolute;
+    width:30%;
+    height:60%;
+    top:70%;
+    left:13%;
+}
