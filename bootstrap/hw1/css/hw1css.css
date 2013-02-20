@@ -386,3 +386,10 @@ h1 {
     border-radius:30px;
     
 }
+
+
+hr{    
+    position:absolute;
+    width:90%;
+    top:550%;
+}
