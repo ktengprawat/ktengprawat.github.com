@@ -31,8 +31,9 @@ h3{
     position:absolute;
     width:30%;
     height:50%;
-    top:140%;
+    top:100%;
     left:13%;
+    border-bottom:50%;
 }
 
 .pic3{
@@ -41,14 +42,5 @@ h3{
     width:30%;
     height:50%;
     top:45%;
-    left:13%;
-}
-
-.pic4{
-    
-    position:absolute;
-    width:30%;
-    height:60%;
-    top:70%;
     left:13%;
 }
