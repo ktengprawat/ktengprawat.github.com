@@ -2,7 +2,7 @@
 
 h1{
     position:absolute;
-    top:20%;
+    top:10%;
     left:13%;
     
 }
@@ -13,7 +13,7 @@ h3{
     width:70%;
     height:50%;
     font-size:1em;
-    top:30%;
+    top:20%;
     left:13%;
 }
 
@@ -21,8 +21,8 @@ h3{
     
     position:absolute;
     width:30%;
-    height:60%;
-    top:70%;
+    height:50%;
+    top:45%;
     left:50%;
 }
 
@@ -30,7 +30,7 @@ h3{
     
     position:absolute;
     width:30%;
-    height:60%;
+    height:50%;
     top:140%;
     left:13%;
 }
@@ -39,8 +39,8 @@ h3{
     
     position:absolute;
     width:30%;
-    height:60%;
-    top:70%;
+    height:50%;
+    top:45%;
     left:13%;
 }
 
