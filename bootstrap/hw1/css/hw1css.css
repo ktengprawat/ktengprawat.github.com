@@ -57,6 +57,22 @@ h1 {
         left:500px;
 }
 
+
+/* Define the keyframe */
+@-webkit-keyframes changecolor {
+   0% {background-color: white}
+    30% {background-color: red}
+
+	50% {background-color: yellow}
+    70% {background-color: red}
+    100% {background-color: green}
+
+
+}
+
+
+
+/*--- black screen --*/
 .square1 {
 	width:540px;
 	height: 265px;
@@ -65,6 +81,9 @@ h1 {
         position:relative;
         top:250px;
         left:530px;
+       
+-webkit-animation: changecolor 4s 1s linear infinite;
+       
 }
 
 #span3 {
@@ -107,6 +126,8 @@ h1 {
 /*---------------------bicycle----------------------------*/
 
 
+
+
 .rectangle {
 	width: 260px;
 	height: 250px;
@@ -133,7 +154,7 @@ h1 {
         position:relative;
         top:1000px;
         left:360px;
-        
+
 }
 
 .wheels:after {
@@ -242,6 +263,20 @@ h1 {
 
 /*---------------------pizza cutter---------------------------*/
 
+
+@-webkit-keyframes goround {
+	from {
+		-webkit-transform: rotate(0deg)
+		           translate(10px)
+		           rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg)
+		           translate(10px) 
+		           rotate(-30deg);
+	}
+}
+
 .bigcircle{
     width: 350px;
 	height: 350px;
@@ -252,9 +287,12 @@ h1 {
         border-width:15px;
         position:relative;
             top:1200px;
-            left:570px
-
-}
+            left:570px;
+            
+	-webkit-animation:goround 3s linear infinite;
+	
+	
+	}
 
 
 
@@ -267,6 +305,8 @@ h1 {
         position:relative;
             top:1000px;
             left:730px
+ 
+           
     
 }
 
@@ -329,7 +369,7 @@ h1 {
     width:150px;
     height:80px;
     background-color:#F0F0F0 ;
-        top:1255px;
+        top:1230px;
         left:680px;
         position:relative;
     border-radius:10px;
