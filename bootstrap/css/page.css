@@ -39,3 +39,17 @@ hr{
  
     
 }
+
+
+.pic2{
+ top:40px;
+ position:relative;
+ width:70%;
+ border:1px;   
+ border-width:10%;
+ border-radius:5px;
+ border-color:gray;
+ border-style:solid;
+ margin-bottom:70px;
+ margin-top:5px;   
+}
