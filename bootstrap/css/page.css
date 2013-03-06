@@ -25,11 +25,12 @@ height:200px;
 left:200px;
 }
 
-hr{
+.hr1{
     position:absolute;
     height:20%;
-    width:100%;
-    top:300%;
+    width:90%;
+    top:120%;
+    left:5%;
 }
 
 .btn{
@@ -53,3 +54,34 @@ hr{
  margin-bottom:70px;
  margin-top:5px;   
 }
+
+.interact {
+    
+    position:absolute;
+    top:770px;
+    left:13%;
+}
+
+
+.btn4{
+    position:absolute;
+    top:900px;
+    left:13%; 
+}
+
+
+.hr2 {
+    
+     position:absolute;
+     height:20%;
+    width:90%;
+    top:1000px;
+    left:5%;  
+}
+
+
+
+
+
+
+
