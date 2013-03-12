@@ -10,9 +10,7 @@
 body { 
 	font-size: 62.5%; 
 	font-family: 'Lucida Grande', Helvetica, sans-serif;
-	background: #121212;
 	color: #999; 
-	padding: 20px;
 }
 
 tr { 
@@ -23,17 +21,71 @@ tr {
 	STRUCTURE
 */
 .post { 
-	width: 930px; float: left; padding-left: 30px; padding-right: 1040px;
+    	width:930px; height:790px; padding-right: 620px
+
 }
+
+
+
+
+/*-----------------------------------------HOME PAGE----------------------------------------------------*/
+
+
+
+#home{
+    
+    background:#DCF8EE;
+    position:relative;
+}
+
+.logo{
+    
+    position:absolute;
+    top:250px;
+    width:30%;
+    left:650px;
+}
+
+.info{
+    font-family:Helvetica;
+    position:absolute;
+    top:535px;
+    left:675px;
+    width:100%;
+}
+
+
+
+
+
+.bigface{
+    
+    position:absolute;
+    left:7%;
+    width:30%;
+}
+
+
+/*-----------------------------------------CHOOSE TYPE PAGE----------------------------------------------------*/
+
+#choosetype{
+    
+        background:#91E7F1;
+
+    
+}
+
+
+
+
+
+
+
 
 
 /*
 	TYPOGRAPHY
 */
-p { font-size: 1.2em; margin: 0 0 15px 0; }
-h1 { font-family: Helvetica, sans-serif; font-size: 4.0em;
-							  letter-spacing: -1px; color: #ccc; }
-h2 { font-family: Helvetica, sans-serif; font-size: 3.0em;
-							  letter-spacing: -1px; color: #ccc; }
+
 a { color: #0066cc; }
 a:hover { color: #ccc; }
