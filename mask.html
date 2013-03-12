@@ -7,6 +7,8 @@
 	<title>DIY Facial Mask</title>
 	
 	<link rel="stylesheet" href="style.css">
+	<link href="bootstrap/facial/button.css" rel="stylesheet">
+
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script src="bootstrap/js/jquery.mousewheel.js"></script>
@@ -24,7 +26,6 @@
 
 <body>
 	
-	<h1>Horizontally Scrolling Site</h1>
 
 	<div id="page-wrap">
 		
@@ -39,11 +40,16 @@
 		
 		<div class="post" id="choosetype">
 			<h1 class="choose_type"> What type of mask would you like? </h1>
-    		<p class="anti_aging"> Anti Aging </p>
-    		<p class="bright"> Brightening </p>
-    		<p class="clean"> Clean & Hydrate </p>
-			</div>
+			<div id="button-wrap">
+			<ul>
+			<li id="red"><a href="#"><em>Anti Aging</em></a></li>
+			<li id="yellow"><a href="#"><em>Brightening</em></a></li>
+			<li id="blue"><a href="#"><em>Clean & Hydrate</em></a></li>
+		</ul>
+		</div>
+		<div style="clear: both;"></div>
 			
+
 			
 
 
@@ -169,5 +175,31 @@
 	
 	
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-68528-29";
+	urchinTracker();
+	</script>
+
+
+
+
+
+
+
+
 
 </html>
