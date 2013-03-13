@@ -21,7 +21,7 @@ tr {
 	STRUCTURE
 */
 .post { 
-    	width:930px; height:790px; padding-right: 620px
+    	width:930px; height:790px; padding-right: 620px; top:-30px;left:-30px;
 
 }
 
@@ -70,11 +70,48 @@ tr {
 
 #choosetype{
     
-        background:#91E7F1;
+        background:white;
+       color: DimGray;
+       position:relative;
 
     
 }
 
+.choose_type{
+    
+    font-size:3em;
+    letter-spacing:-1px;
+    position:absolute;
+    width:100%;
+    top:200px;
+    left:500px;
+    
+    }
+
+
+/*--------------animate 1 PAGE----------------------------*/
+
+#animate1 {
+    
+    position:relative;
+    background:wheat;
+    width:970px;
+}
+
+
+/*--------------choose age recipe PAGE----------------------------*/
+
+#aging{
+            background:red;
+            position:relative;
+            top:-30px;
+            left:-63px;
+             width:970px;
+
+
+}
+
+/*--------------choose age recipe1 PAGE----------------------------*/
 
 
 
@@ -83,9 +120,7 @@ tr {
 
 
 
-/*
-	TYPOGRAPHY
-*/
 
-a { color: #0066cc; }
-a:hover { color: #ccc; }
+
+
+
