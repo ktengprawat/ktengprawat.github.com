@@ -102,7 +102,7 @@ tr {
 /*--------------choose age recipe PAGE----------------------------*/
 
 #aging{
-            background:red;
+            background:#DCF8EE;
             position:relative;
             top:-30px;
             left:-63px;
@@ -111,16 +111,22 @@ tr {
 
 }
 
-/*--------------choose age recipe1 PAGE----------------------------*/
+/*--------------aging recipe1 PAGE----------------------------*/
+
+#agingmask1 {
+    
+    position:relative;
+}
 
 
 
+/*--------------aging recipe2 PAGE----------------------------*/
 
 
 
-
-
-
-
+#agingmask2{
+    
+    position:relative;
+}
 
 
