@@ -21,7 +21,7 @@ tr {
 	STRUCTURE
 */
 .post { 
-    	width:930px; height:790px; padding-right: 620px; top:-30px;left:-30px;
+    	width:930px; height:845px; padding-right: 620px; top:-30px;left:-30px;
 
 }
 
@@ -53,7 +53,8 @@ p, ul{
 }
 
 .info{
-    font-family:Helvetica;
+    font-family:serifa;
+    font-weight:lighter;
     position:absolute;
     top:535px;
     left:675px;
@@ -86,7 +87,8 @@ p, ul{
 .choose_type{
     
     font-size:3em;
-    letter-spacing:-1px;
+    font-family:serifa;
+    letter-spacing:2px;
     position:absolute;
     width:100%;
     top:200px;
@@ -108,7 +110,7 @@ p, ul{
 /*--------------choose age recipe PAGE----------------------------*/
 
 #aging{
-            background:#DCF8EE;
+            background:#FCF4F6;
             position:relative;
             top:-30px;
             left:-63px;
@@ -117,15 +119,115 @@ p, ul{
 
 }
 
+.aging_mask{
+    
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    position:absolute;
+    top:120px;
+    color:#C5556F;
+    left:250px;
+    
+
+}
+
+
+.choose_aging_mask{
+    font-size:2em;
+    position:absolute;
+    top:160px;
+    left:250px;
+    
+    
+}
+
+
+.choose1, .choose2, .choose3, .choose4 {
+    
+    position:absolute;
+    width:35%;
+    border-radius:20px;
+}
+
+
+.choose1{
+ 
+ top:230px;
+ left:250px;
+    
+}
+
+.choose2{
+    
+    top:230px;
+    left:600px;
+}
+
+.choose4{
+    
+    top:230px;
+    left:950px;
+}
+
+
 /*--------------aging recipe1 PAGE----------------------------*/
 
 #agingmask1 {
     
     position:relative;
+    background:#FCF4F6;
+    left:-93px;
+    
 }
 
+.title{
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    color:#C5556F;
+    position:absolute;
+    top:100px;
+    left:350px;
+}
 
+#ingredient_agingmask_1{
+    
+    position:absolute;
+    top:250px;
+    left:850px;
+}
 
+.pic{
+    position:absolute;
+    border-radius:20px;
+    width:30%;
+    top:200px;
+    left:350px;
+}
+
+ul{
+    
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:10px;
+    left:700px;
+    
+    
+}
+.howto_mask1_1{
+    
+    position:absolute;
+    left:350px;
+    top:580px;
+}
+
+.list{
+    
+    position:absolute;
+    left:200px;
+}
 /*--------------aging recipe2 PAGE----------------------------*/
 
 
@@ -228,8 +330,6 @@ p, ul{
     
     position:relative;
 }
-
-
 
 
 
