@@ -21,7 +21,7 @@ tr {
 	STRUCTURE
 */
 .post { 
-    	width:930px; height:845px; padding-right: 620px; top:-30px;left:-30px;
+    	width:970px; height:845px; padding-right: 620px; top:-30px;left:-30px;
 
 }
 
@@ -216,7 +216,7 @@ float:left;
     
     
 }
-.howto_mask1_1{
+.howtomask{
     
     position:absolute;
     left:350px;
@@ -231,35 +231,46 @@ float:left;
 #agingmask2{
     
     position:relative;
+    left:-300px;
 }
 
 
+.pic1{
+    position:absolute;
+    border-radius:20px;
+    width:30%;
+    top:200px;
+    left:350px;
+}
 
+.list1{
+    
+float:left;
+    width:15%;
+    height:10%;
+    top:20px;
+    left:890px;
+    
+    
+}
 
+.ingredient_agingmask_2{
+    position:absolute;
+    top:250px;
+    left:850px;
+    
+}
 
 /*--------------aging recipe3 PAGE----------------------------*/
 
 #agingmask3{
     
     position:relative;
+     background:#FCF4F6;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-/*--------------aging recipe4 PAGE----------------------------*/
-
-#agingmask4{
-    position:relative;
-}
 
 
 
@@ -274,21 +285,45 @@ float:left;
 /*-----------------------------------------brighted----------------------------------------------------*/
 
 
-#brighten {
+
+#brighten{
     
     position:relative;
+     top:-30px;
+      width:970px;
+      background:#DCF8EE;
+    
 }
 
+.title1{
+    
+    position:absolute;
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    position:absolute;
+    top:120px;
+    color:teal;
+    left:250px;
+  }
 
-
+.choose_recipe{
+    
+    position:absolute;
+    font-size:2em;
+    position:absolute;
+    top:160px;
+    left:250px
+}
 
 
 /*--------------bright 1----------------------------*/
 
-
-#brighten1 {
+#brighten1{
     
     position:relative;
+      background:#DCF8EE;
+    
 }
 
 
@@ -326,8 +361,6 @@ float:left;
     
     position:relative;
 }
-
-
 
 
 
