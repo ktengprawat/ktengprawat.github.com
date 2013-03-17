@@ -328,18 +328,42 @@ float:left;
 
 
 
+.ingredient_brightmask{
+    position:absolute;
+    top:250px;
+    left:850px;
+    
+}
+
+.howto_brightmask{
+    
+    position:absolute;
+    left:350px;
+    top:580px;
+}
+
+
 /*--------------bright 2----------------------------*/
 
 
 
-#brighten2 {
+#brightenmask2 {
     
     position:relative;
 }
 
+.pic{
+    
+    position:absolute;
+    
+}
 
-
-
+.ingredient_brightmask2{
+    position:absolute;
+    top:250px;
+    left:850px;
+    
+}
 
 
 /*--------------bright 3----------------------------*/
@@ -350,7 +374,11 @@ float:left;
     position:relative;
 }
 
-
+.pic{
+    
+    position:absolute;
+    
+}
 
 
 
@@ -361,7 +389,6 @@ float:left;
     
     position:relative;
 }
-
 
 
 
