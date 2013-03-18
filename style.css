@@ -97,14 +97,41 @@ p, ul{
     }
 
 
-/*--------------animate 1 PAGE----------------------------*/
-
-#animate1 {
+.type1{
+        position:absolute;
+    width:12%;
+    top:250px;
+    left:500px;
     
-    position:relative;
-    background:wheat;
-    width:970px;
+    
 }
+
+.type2{
+    position:absolute;
+    width:12.2%;
+    top:250px;
+    left:675px;
+}
+
+.type3 {
+    
+    position:absolute;
+    width:12.3%;
+    top:250px;
+    left:850px;
+}
+.type1:hover{
+    opacity: 0.5;
+}
+.type2:hover{
+    opacity: 0.5;
+}
+.type3:hover{
+    opacity: 0.5;
+}
+
+
+
 
 
 /*--------------choose age recipe PAGE----------------------------*/
@@ -127,7 +154,7 @@ p, ul{
     position:absolute;
     top:120px;
     color:#C5556F;
-    left:250px;
+    left:350px;
     
 
 }
@@ -136,8 +163,8 @@ p, ul{
 .choose_aging_mask{
     font-size:2em;
     position:absolute;
-    top:160px;
-    left:250px;
+    top:170px;
+    left:350px;
     
     
 }
@@ -154,23 +181,31 @@ p, ul{
 .choose1{
  
  top:230px;
- left:250px;
+ left:350px;
     
 }
 
 .choose2{
     
     top:230px;
-    left:600px;
+    left:700px;
 }
 
 .choose4{
     
     top:230px;
-    left:950px;
+    left:1050px;
 }
 
-
+.choose1:hover{
+    opacity: 0.5;
+}
+.choose2:hover{
+    opacity: 0.5;
+}
+.choose4:hover{
+    opacity: 0.5;
+}
 /*--------------aging recipe1 PAGE----------------------------*/
 
 #agingmask1 {
@@ -195,7 +230,7 @@ p, ul{
     
     position:absolute;
     top:250px;
-    left:850px;
+    left:950px;
 }
 
 .pic{
@@ -212,7 +247,7 @@ float:left;
     width:10%;
     height:10%;
     top:20px;
-    left:890px;
+    left:950px;
     
     
 }
@@ -249,7 +284,7 @@ float:left;
     width:15%;
     height:10%;
     top:20px;
-    left:890px;
+    left:950px;
     
     
 }
@@ -257,7 +292,7 @@ float:left;
 .ingredient_agingmask_2{
     position:absolute;
     top:250px;
-    left:850px;
+    left:950px;
     
 }
 
@@ -291,7 +326,7 @@ float:left;
     position:relative;
      top:-30px;
       width:970px;
-      background:#DCF8EE;
+      background:#FFF8DC;
     
 }
 
@@ -303,8 +338,8 @@ float:left;
     letter-spacing:2px;
     position:absolute;
     top:120px;
-    color:teal;
-    left:250px;
+    color:#DAA520;
+    left:350px;
   }
 
 .choose_recipe{
@@ -312,17 +347,25 @@ float:left;
     position:absolute;
     font-size:2em;
     position:absolute;
-    top:160px;
-    left:250px
+    top:170px;
+    left:350px
 }
 
-
+.choose5:hover{
+    opacity: 0.5;
+}
+.choose6:hover{
+    opacity: 0.5;
+}
+.choose7:hover{
+    opacity: 0.5;
+}
 /*--------------bright 1----------------------------*/
 
 #brighten1{
     
     position:relative;
-      background:#DCF8EE;
+      background:#FFF8DC;
     
 }
 
@@ -331,7 +374,7 @@ float:left;
 .ingredient_brightmask{
     position:absolute;
     top:250px;
-    left:850px;
+    left:950px;
     
 }
 
@@ -347,31 +390,28 @@ float:left;
 
 
 
-#brightenmask2 {
-    
+#brightmask2 {
+     background:#FFF8DC;
+
     position:relative;
 }
 
-.pic{
-    
-    position:absolute;
-    
-}
 
-.ingredient_brightmask2{
+.ingredient_brightmask_{
     position:absolute;
     top:250px;
-    left:850px;
+    left:950px;
     
 }
-
 
 /*--------------bright 3----------------------------*/
 
 
-#brighten3 {
+#brightmask3 {
     
     position:relative;
+    background:#FFF8DC;
+
 }
 
 .pic{
@@ -380,19 +420,115 @@ float:left;
     
 }
 
-
-
-
-/*--------------bright 4----------------------------*/
-
-#brighten4 {
+.ingredient_brightmask_3{
+    position:absolute;
+    top:250px;
+    left:950px;
     
-    position:relative;
+}
+
+.howto_brightmask{
+    width:60%;
 }
 
 
 
+/*-----------------------------------------clean----------------------------------------------------*/
 
 
 
+#clean{
+    
+    position:relative;
+        background:#DCF8EE;
+        width:970px;
 
+}
+
+
+.title2{
+    
+    position:absolute;
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    position:absolute;
+    top:120px;
+    color:teal;
+    left:250px;
+  }
+
+
+.choose8, .choose9, .choose10{
+    
+    position:absolute;
+    width:20%;
+    border-radius:20px;
+    
+    
+}
+
+
+.choose8{
+ 
+ top:230px;
+ left:250px;
+    
+}
+
+.choose9{
+    
+    top:230px;
+    left:580px;
+}
+
+.choose10{
+    
+    top:230px;
+    left:910px;
+}
+
+
+.choose_recipe1{
+     position:absolute;
+    font-size:2em;
+    position:absolute;
+    top:170px;
+    left:250px
+    
+}
+
+
+.choose8:hover{
+    opacity: 0.5;
+}
+.choose9:hover{
+    opacity: 0.5;
+}
+.choose10:hover{
+    opacity: 0.5;
+}
+
+
+
+/*--------------clean ----------------------------*/
+
+#clean1, #clean2, #clean3{
+    
+    position:relative;
+        background:#DCF8EE;
+}
+
+
+/*--------------credit----------------------------*/
+
+
+#credit{
+    
+    position:relative;
+}
+
+.list3{
+    position:absolute;
+    width:950px;
+}
