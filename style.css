@@ -34,6 +34,13 @@ p, ul{
     font-size:1.50em;
 }
 
+
+
+
+
+
+
+
 /*-----------------------------------------HOME PAGE----------------------------------------------------*/
 
 
@@ -73,11 +80,25 @@ p, ul{
 }
 
 
+.button {
+    padding: 1px 5px 3px 5px;
+    background: pink;
+    color: #FFF;
+    border-radius:3px;
+    position:absolute;
+    top:560px;
+    left:1230px;
+}
+.button:hover{
+    opacity: 0.5;
+}
+
+
 /*-----------------------------------------CHOOSE TYPE PAGE----------------------------------------------------*/
 
 #choosetype{
     
-        background:white;
+    background:#DCF8EE;
        color: DimGray;
        position:relative;
 
@@ -97,29 +118,40 @@ p, ul{
     }
 
 
-.type1{
-        position:absolute;
-    width:12%;
+#choose_aging {
+    background-image:url(images/type1.png);
+    display:block;
+    height:300px;
+    text-indent:-9999px;
+    width:250px;
+     position:absolute;
     top:250px;
-    left:500px;
-    
-    
+    left:420px;
 }
 
-.type2{
-    position:absolute;
-    width:12.2%;
+#choose_brighten {
+    background-image:url(images/type2.png);
+    display:block;
+    height:300px;
+    text-indent:-9999px;
+    width:250px;
+     position:absolute;
     top:250px;
-    left:675px;
+    left:630px;
 }
 
-.type3 {
-    
-    position:absolute;
-    width:12.3%;
+#choose_clean {
+    background-image:url(images/type3.png);
+    display:block;
+    height:300px;
+    text-indent:-9999px;
+    width:250px;
+     position:absolute;
     top:250px;
     left:850px;
 }
+
+
 .type1:hover{
     opacity: 0.5;
 }
