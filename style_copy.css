@@ -202,40 +202,50 @@ p, ul{
 }
 
 
-.choose1, .choose2, .choose3, .choose4 {
-    
-    position:absolute;
+#age_mask1 {
+    background-image:url(images/choose1.png);
+ 	position:absolute;
     width:35%;
     border-radius:20px;
-}
-
-
-.choose1{
- 
- top:230px;
- left:350px;
+    top:230px;
+ 	left:350px;
     
 }
 
-.choose2{
-    
+
+
+#age_mask2 {
+    background-image:url(images/choose2.png);
+ 	position:absolute;
+    width:35%;
+    border-radius:20px;
     top:230px;
     left:700px;
+    
 }
 
-.choose4{
-    
+
+#age_mask3 {
+    background-image:url(images/choose4.png);
+ 	position:absolute;
+    width:35%;
+    border-radius:20px;
     top:230px;
     left:1050px;
+    
 }
 
-.choose1:hover{
+
+
+
+
+.age_mask1:hover{
     opacity: 0.5;
 }
-.choose2:hover{
+.age_mask2:hover{
     opacity: 0.5;
 }
-.choose4:hover{
+.age_mask3:hover{
     opacity: 0.5;
 }
 /*--------------aging recipe1 PAGE----------------------------*/
