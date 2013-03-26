@@ -1,0 +1,514 @@
+body { 
+	font-size: 62.5%; 
+	font-family: 'Lucida Grande', Helvetica, sans-serif;
+	color: #999; 
+}
+
+h4{
+    
+    font-size:3em;
+}
+
+p, ul{
+    font-size:1.50em;
+}
+
+
+/*-----------------------------------------HOME PAGE----------------------------------------------------*/
+
+
+
+#home{
+    
+    position:absolute;
+}
+
+.logo{
+    
+    position:absolute;
+    top:-50px;
+    width:30%;
+    left:595px;
+}
+
+.info{
+    font-family:serifa;
+    font-weight:lighter;
+    position:absolute;
+    top:185px;
+    left:235px;
+    width:100%;
+    font-size:1.6em;
+}
+
+
+
+
+
+.bigface{
+    
+    position:absolute;
+    left:10%;
+    width:30%;
+    top:-280px;
+}
+
+
+.button {
+    padding: 1px 5px 3px 5px;
+    background: pink;
+    color: #FFF;
+    border-radius:3px;
+    position:absolute;
+    top:560px;
+    left:1230px;
+}
+.button:hover{
+    opacity: 0.5;
+}
+
+
+
+/*-----------------------------------------CHOOSE TYPE PAGE----------------------------------------------------*/
+
+#choosetype{
+    
+       color: DimGray;
+
+    
+}
+
+.choose_type{
+    
+    font-size:3.2em;
+    font-family:serifa;
+    letter-spacing:2px;
+    position:absolute;
+    top:25%;
+    left:30%;
+    
+    }
+
+
+#choose_aging {
+    background-image:url(images/type1.png);
+    display:block;
+    height:300px;
+    text-indent:-9999px;
+    width:250px;
+     position:absolute;
+    top:35%;
+    left:25%;
+}
+
+#choose_brighten {
+    background-image:url(images/type2.png);
+    display:block;
+    height:300px;
+    text-indent:-9999px;
+    width:250px;
+     position:absolute;
+     top:35%;
+    left:41%;
+}
+
+#choose_clean {
+    background-image:url(images/type3.png);
+    display:block;
+    height:300px;
+    text-indent:-9999px;
+    width:250px;
+     position:absolute;
+      top:35%;
+    left:58%
+}
+
+
+#choose_aging:hover{
+    opacity: 0.5;
+}
+
+
+#choose_brighten:hover{
+    opacity: 0.5;
+}
+
+
+#choose_clean:hover{
+    opacity: 0.5;
+}
+
+
+/*--------------choose age recipe PAGE----------------------------*/
+
+#aging{
+            background:#FCF4F6;
+            position:absolute;
+            top:-30px;
+            left:-63px;
+             width:970px;
+
+
+}
+
+.aging_mask{
+    
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    position:absolute;
+    top:120px;
+    color:#C5556F;
+    left:350px;
+    
+
+}
+
+
+.choose_aging_mask{
+    font-size:2em;
+    position:absolute;
+    top:170px;
+    left:350px;
+    
+    
+}
+
+
+.choose1, .choose2, .choose3, .choose4 {
+    
+    position:absolute;
+    width:35%;
+    border-radius:20px;
+}
+
+
+.choose1{
+ 
+ top:260px;
+ left:180px;
+    
+}
+
+.choose2{
+    
+    top:260px;
+    left:550px;
+}
+
+.choose4{
+    
+    top:260px;
+    left:920px;
+}
+
+.choose1:hover{
+    opacity: 0.5;
+}
+.choose2:hover{
+    opacity: 0.5;
+}
+.choose4:hover{
+    opacity: 0.5;
+}
+
+
+
+/*--------------aging recipe1 PAGE----------------------------*/
+
+#agingmask1 {
+    
+    background:#FCF4F6;
+    
+}
+
+.title{
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    color:#C5556F;
+    position:absolute;
+    top:100px;
+    left:300px;
+}
+
+#ingredient_agingmask_1{
+    
+    position:absolute;
+    top:250px;
+    left:840px;
+}
+
+.pic{
+    position:absolute;
+    border-radius:20px;
+    width:30%;
+    top:200px;
+    left:300px;
+}
+
+.list{
+    
+    position:absolute;
+    width:20%;
+    height:10%;
+    top:340px;
+    left:840px;
+    
+    
+}
+.howtomask{
+    
+    position:absolute;
+    left:300px;
+    top:530px;
+    width:70%;
+}
+
+
+
+/*--------------aging recipe2 PAGE----------------------------*/
+
+.pic1{
+    position:absolute;
+    border-radius:20px;
+    width:30%;
+    top:200px;
+    left:300px;
+}
+
+.list1{
+    
+ position:absolute;
+    width:20%;
+    height:10%;
+    top:340px;
+    left:840px;
+    
+    
+}
+
+.ingredient_agingmask_2{
+    position:absolute;
+    top:250px;
+    left:840px;
+    
+}
+
+
+/*-----------------------------------------brighted----------------------------------------------------*/
+
+
+
+#brighten{
+    position:absolute;
+     top:-30px;
+      width:970px;
+      
+    
+}
+
+.title1{
+    
+    position:absolute;
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    position:absolute;
+    top:140px;
+    color:#DAA520;
+    left:180px;
+    
+    
+
+  }
+  
+ 
+
+.choose_recipe{
+    
+    position:absolute;
+    font-size:2em;
+    position:absolute;
+    top:190px;
+    left:180px
+}
+
+.choose5:hover{
+    opacity: 0.5;
+}
+.choose6:hover{
+    opacity: 0.5;
+}
+.choose7:hover{
+    opacity: 0.5;
+}
+
+
+/*--------------bright 1----------------------------*/
+
+
+.title11{
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    color:#DAA520;
+    position:absolute;
+    top:100px;
+    left:300px;
+}
+
+
+.ingredient_brightmask{
+   position:absolute;
+    top:250px;
+    left:840px;
+    
+    
+}
+
+.howto_brightmask{
+    position:absolute;
+    left:300px;
+    top:530px;
+    width:70%;
+}
+
+/*--------------bright 2----------------------------*/
+
+.ingredient_brightmask_{
+
+   position:absolute;
+    top:250px;
+    left:840px;
+    
+    
+}
+
+/*--------------bright 3----------------------------*/
+
+.pic{
+    
+    position:absolute;
+    
+}
+
+.ingredient_brightmask_3{
+   position:absolute;
+    top:250px;
+    left:840px;
+    
+}
+
+.howto_brightmask{
+    width:60%;
+}
+
+
+
+/*-------------------------------------clean----------------------------------------------------*/
+
+
+#clean{
+    position:absolute;
+    top:-30px;
+    width:970px;
+      
+    
+}
+
+.title2{
+    
+    position:absolute;
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    position:absolute;
+    top:100px;
+    color:teal;
+    left:180px;
+    
+    
+
+}
+
+.title3{
+    
+    position:absolute;
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    position:absolute;
+    top:140px;
+    color:teal;
+    left:180px;
+    
+    
+
+}
+
+.choose_recipe1{
+    
+    position:absolute;
+    font-size:2em;
+    position:absolute;
+    top:190px;
+    left:180px
+}
+.choose8, .choose9, .choose10 {
+    
+    position:absolute;
+    width:35%;
+    border-radius:20px;
+}
+
+
+.choose8{
+ 
+ top:260px;
+ left:180px;
+    
+}
+
+.choose9{
+    
+    top:260px;
+    left:550px;
+}
+
+.choose10{
+    
+    top:260px;
+    left:920px;
+}
+
+
+.choose8:hover{
+    opacity: 0.5;
+}
+.choose9:hover{
+    opacity: 0.5;
+}
+.choose10:hover{
+    opacity: 0.5;
+}
+
+
+}
+
+
+/*--------------credit----------------------------*/
+
+
+#credit{
+    
+    position:absolute;
+}
+
+.list3{
+    position:absolute;
+    top:240px;
+    left:15%;
+    width:70%;
+}
+
