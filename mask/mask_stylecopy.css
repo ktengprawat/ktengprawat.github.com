@@ -16,92 +16,31 @@ p, ul{
 /*-----------------------------------------menu----------------------------------------------------*/
 
 
-ul{
-margin:0;
-padding:0;
-position:absolute;
-top:-280px;
-left:700px;
-list-style:none;
-
-}
-
-li{
-display:inline;
-list-type:none;
-list-style:none;
-
-}
-
-.glideebutton ul{
-    
-    list-style:none;
-}
-
-a.glidebutton{
-list-style:none;
-display: inline-block;
-position: relative;
-color: #4A4A4A; /* default color */
-background: #ececec; /* default bg color */
-text-decoration: none;
-font: bold 14px Arial; /* font settings */
-letter-spacing: 2px; /* font settings */
-overflow: hidden;
-height: 30px; /* height of each button */
-width:160px;
-text-align: center;
-border-radius: 5px; /* border radius */
--moz-transition: all 0.3s ease-in-out; /* Enable CSS transition between property changes */
--webkit-transition: all 0.3s ease-in-out;
--o-transition: all 0.3s ease-in-out;
--ms-transition: all 0.3s ease-in-out;
-transition: all 0.3s ease-in-out;
-}
-
-a.glidebutton > span:first-child{ /* first span inside button */
-position: relative;
-list-style:none;
-
-display: block;
-height: 100%;
-padding: 6px; /* padding of button */
--moz-box-sizing: border-box;
-box-sizing: border-box;
--moz-transition: all 0.3s ease-in-out; /* Enable CSS transition between property changes */
--webkit-transition: all 0.3s ease-in-out;
--o-transition: all 0.3s ease-in-out;
--ms-transition: all 0.3s ease-in-out;
-transition: all 0.3s ease-in-out;
-}
-
-a.glidebutton > span:first-child:after{ /* CSS generated content */
-list-style:none;
-
-content: attr(data-text); /* Duplicate text of span markup */
-display: block;
+.menu{
+color:DimGray;
 width: 100%;
-height: 100%;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-padding: inherit;
-position: absolute;
-top:100%;
-left:0;
 }
 
-a.glidebutton:hover{
-color: black; /* color of button on hover */
-background:#80F8E4; /* bg color of button on hover */
-box-shadow: 0 0 4px green inset;
+.menu ul{
+padding: 26px 0 7px 0; /*6px should equal top padding of "ul li a" below, 7px should equal bottom padding + bottom border of "ul li a" below*/
+margin: 0;
+text-align: right; //set value to "left", "center", or "right"*/
 }
 
-a.glidebutton:hover > span:first-child{
--moz-transform: translateY(-100%);
--webkit-transform: translateY(-100%);
--ms-transform: translateY(-100%);
--o-transform: translateY(-100%);
-transform: translateY(-100%);
+.menu ul li{
+display: inline;
+}
+
+.menu ul li a{
+color: teal;
+padding: 6px 3px 4px 3px; /*top padding is 6px, bottom padding is 4px*/
+margin-right: 20px; /*spacing between each menu link*/
+text-decoration: none;
+border-bottom: 3px solid LightGrey; /*bottom border is 3px*/
+}
+
+.menu ul li a:hover, .menu ul li a.selected{
+border-bottom-color: teal;
 }
 
 
@@ -269,8 +208,9 @@ transform: translateY(-100%);
 /*--------------choose age recipe PAGE----------------------------*/
 
 #aging{
+            background:#FCF4F6;
             position:absolute;
-            top:-230px;
+            top:50px;
             left:-63px;
              width:970px;
 
@@ -331,7 +271,7 @@ transform: translateY(-100%);
 #agingmask1 {
     
     background:#FCF4F6;
-                
+    
 }
 
 .title{
@@ -340,55 +280,40 @@ transform: translateY(-100%);
     letter-spacing:2px;
     color:#C5556F;
     position:absolute;
-    top:-150px;
+    top:165px;
     left:300px;
 }
 
 #ingredient_agingmask_1{
     
     position:absolute;
+    top:250px;
     left:840px;
-    top:-50px;
 }
 
 .pic{
     position:absolute;
     border-radius:10px;
     width:30%;
+    top:260px;
     left:300px;
-    top:-50px;
 }
 
-.l1{
-     
-     text-indent: 7.1px;
-    list-style-type: square;
-
-}
-.list:last-child {
-    list-style-type: square;
-    text-indent:500px;
-
-    list-style-type: circle;
-}
 .list{
-    list-style-type: circle;
-    position:relative;
-    width:100.9%;
+    
+    position:absolute;
+    width:20%;
     height:10%;
-    top:50px;
+    top:340px;
     left:840px;
-    text-indent: 1px;
-
+    
     
 }
-
-
 .howtomask{
     
     position:absolute;
-    left:280px;
-    top:270px;
+    left:300px;
+    top:580px;
     width:70%;
 }
 
@@ -397,29 +322,21 @@ transform: translateY(-100%);
 /*--------------aging recipe2 PAGE----------------------------*/
 
 .pic1{
-      position:absolute;
-    border-radius:10px;
+    position:absolute;
+    border-radius:20px;
     width:30%;
+    top:260px;
     left:300px;
-    top:-50px;;
 }
 
 .list1{
-    padding:20px;
-    top:50px;
+    
+ position:absolute;
+    width:30%;
+    height:10%;
+    top:340px;
     left:840px;
-    width:195px;
-    text-indent: 3.1px;
-
-}
-
-.list1 li{
-    height:100px;
-    margin-top:10px;;
-    padding:10px;
-    position:relative;
-    display:inline;
-
+    
     
 }
 
@@ -465,7 +382,7 @@ position:absolute;;
 
 .link2{
     position:absolute;
-    top:250px;
+    top:325px;
     left:220px;
     width:120%;
     
@@ -486,7 +403,7 @@ position:absolute;;
     font-family:serifa;
     letter-spacing:2px;
     position:absolute;
-    top:140px;
+    top:200px;
     color:#DAA520;
     left:220px;
     
@@ -501,7 +418,7 @@ position:absolute;;
     position:absolute;
     font-size:2em;
     position:absolute;
-    top:190px;
+    top:250px;
     left:220px
 }
 
@@ -525,7 +442,7 @@ position:absolute;;
     letter-spacing:2px;
     color:#DAA520;
     position:absolute;
-    top:100px;
+    top:165px;
     left:300px;
 }
 
@@ -534,6 +451,7 @@ position:absolute;;
    position:absolute;
     top:250px;
     left:840px;
+    width:100px;
     
     
 }
@@ -541,7 +459,7 @@ position:absolute;;
 .howto_brightmask{
     position:absolute;
     left:300px;
-    top:530px;
+    top:580px;
     width:70%;
 }
 
@@ -558,14 +476,6 @@ position:absolute;;
 
 
 
-#fooObject {
- /* simple box */
- position:absolute;
- left:0px;
- top:8em;
- width:5em;
- white-space:nowrap;
-}
 
 
 
@@ -596,7 +506,7 @@ position:absolute;;
 
 .link3{
     position:absolute;
-    top:250px;
+    top:325px;
     left:220px;
     width:120%;
     
@@ -616,9 +526,9 @@ position:absolute;;
     font-family:serifa;
     letter-spacing:2px;
     position:absolute;
-    top:100px;
+    top:162px;
     color:teal;
-    left:180px;
+    left:300px;
     
     
 
@@ -631,7 +541,7 @@ position:absolute;;
     font-family:serifa;
     letter-spacing:2px;
     position:absolute;
-    top:140px;
+    top:200px;
     color:teal;
     left:220px;
     
@@ -644,7 +554,7 @@ position:absolute;;
     position:absolute;
     font-size:2em;
     position:absolute;
-    top:190px;
+    top:250px;
     left:220px
 }
 
@@ -671,11 +581,28 @@ position:absolute;;
 #credit{
     
     position:absolute;
+ 
 }
+
+
+.title4{
+    
+    position:absolute;
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    top:163px;
+    color:DimGray;
+    left:220px;
+    
+    
+
+}
+
 
 .list3{
     position:absolute;
-    top:240px;
+    top:250px;
     left:15%;
     width:70%;
 }

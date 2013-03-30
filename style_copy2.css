@@ -16,95 +16,54 @@ p, ul{
 /*-----------------------------------------menu----------------------------------------------------*/
 
 
-ul{
-margin:0;
-padding:0;
-position:absolute;
-top:-280px;
-left:700px;
-list-style:none;
 
-}
-
-li{
-display:inline;
-list-type:none;
-list-style:none;
-
-}
-
-.glideebutton ul{
-    
-    list-style:none;
-}
-
-a.glidebutton{
-list-style:none;
-display: inline-block;
-position: relative;
-color: #4A4A4A; /* default color */
-background: #ececec; /* default bg color */
-text-decoration: none;
-font: bold 14px Arial; /* font settings */
-letter-spacing: 2px; /* font settings */
-overflow: hidden;
-height: 30px; /* height of each button */
-width:160px;
-text-align: center;
-border-radius: 5px; /* border radius */
--moz-transition: all 0.3s ease-in-out; /* Enable CSS transition between property changes */
--webkit-transition: all 0.3s ease-in-out;
--o-transition: all 0.3s ease-in-out;
--ms-transition: all 0.3s ease-in-out;
-transition: all 0.3s ease-in-out;
-}
-
-a.glidebutton > span:first-child{ /* first span inside button */
-position: relative;
-list-style:none;
-
-display: block;
-height: 100%;
-padding: 6px; /* padding of button */
--moz-box-sizing: border-box;
-box-sizing: border-box;
--moz-transition: all 0.3s ease-in-out; /* Enable CSS transition between property changes */
--webkit-transition: all 0.3s ease-in-out;
--o-transition: all 0.3s ease-in-out;
--ms-transition: all 0.3s ease-in-out;
-transition: all 0.3s ease-in-out;
-}
-
-a.glidebutton > span:first-child:after{ /* CSS generated content */
-list-style:none;
-
-content: attr(data-text); /* Duplicate text of span markup */
-display: block;
+.circlemenu{
 width: 100%;
-height: 100%;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-padding: inherit;
-position: absolute;
-top:100%;
-left:0;
+position:absolute;
 }
 
-a.glidebutton:hover{
-color: black; /* color of button on hover */
-background:#80F8E4; /* bg color of button on hover */
-box-shadow: 0 0 4px green inset;
+.circlemenu ul{
+margin: 0;
+padding: 0;
+font: bold 14px Verdana;
+list-style-type: none;
+text-align: center; /* "left", "center", or "right" align menu */
 }
 
-a.glidebutton:hover > span:first-child{
--moz-transform: translateY(-100%);
--webkit-transform: translateY(-100%);
--ms-transform: translateY(-100%);
--o-transform: translateY(-100%);
-transform: translateY(-100%);
+.circlemenu li{
+display: inline;
+margin: 0;
 }
 
+.circlemenu li a{
+display:inline-block;
+text-align:center;
+text-decoration: none;
+color: white;
+background:teal;
+margin: 0;
+margin-right:5px; /*right spacing between each link */
+width:100px;
+height:100px;
+border-radius: 400px; /*really large border radius to create round borders*/
+-moz-border-radius: 400px;
+-webkit-border-radius: 400px;
+}
 
+.circlemenu a span{
+position:absolute;
+top:40%;
+}
+
+.circlemenu li a:visited{
+color: white;
+}
+
+.circlemenu a:hover{
+background: #a71b15;
+}
+
+</style>
 
 
 /*-----------------------------------------HOME PAGE----------------------------------------------------*/
@@ -269,8 +228,9 @@ transform: translateY(-100%);
 /*--------------choose age recipe PAGE----------------------------*/
 
 #aging{
+            background:#FCF4F6;
             position:absolute;
-            top:-230px;
+            top:-30px;
             left:-63px;
              width:970px;
 
@@ -331,7 +291,7 @@ transform: translateY(-100%);
 #agingmask1 {
     
     background:#FCF4F6;
-                
+    
 }
 
 .title{
@@ -340,55 +300,40 @@ transform: translateY(-100%);
     letter-spacing:2px;
     color:#C5556F;
     position:absolute;
-    top:-150px;
+    top:100px;
     left:300px;
 }
 
 #ingredient_agingmask_1{
     
     position:absolute;
+    top:250px;
     left:840px;
-    top:-50px;
 }
 
 .pic{
     position:absolute;
     border-radius:10px;
     width:30%;
+    top:200px;
     left:300px;
-    top:-50px;
 }
 
-.l1{
-     
-     text-indent: 7.1px;
-    list-style-type: square;
-
-}
-.list:last-child {
-    list-style-type: square;
-    text-indent:500px;
-
-    list-style-type: circle;
-}
 .list{
-    list-style-type: circle;
-    position:relative;
-    width:100.9%;
+    
+    position:absolute;
+    width:20%;
     height:10%;
-    top:50px;
+    top:340px;
     left:840px;
-    text-indent: 1px;
-
+    
     
 }
-
-
 .howtomask{
     
     position:absolute;
-    left:280px;
-    top:270px;
+    left:300px;
+    top:530px;
     width:70%;
 }
 
@@ -397,29 +342,21 @@ transform: translateY(-100%);
 /*--------------aging recipe2 PAGE----------------------------*/
 
 .pic1{
-      position:absolute;
-    border-radius:10px;
+    position:absolute;
+    border-radius:20px;
     width:30%;
+    top:200px;
     left:300px;
-    top:-50px;;
 }
 
 .list1{
-    padding:20px;
-    top:50px;
+    
+ position:absolute;
+    width:20%;
+    height:10%;
+    top:340px;
     left:840px;
-    width:195px;
-    text-indent: 3.1px;
-
-}
-
-.list1 li{
-    height:100px;
-    margin-top:10px;;
-    padding:10px;
-    position:relative;
-    display:inline;
-
+    
     
 }
 
