@@ -1,0 +1,681 @@
+body { 
+	font-size: 62.5%; 
+	font-family: 'Lucida Grande', Helvetica, sans-serif;
+	color: #999; 
+}
+
+h4{
+    
+    font-size:3em;
+}
+
+p, ul{
+    font-size:1.50em;
+}
+
+/*-----------------------------------------menu----------------------------------------------------*/
+
+
+ul{
+margin:0;
+padding:0;
+position:absolute;
+top:-280px;
+left:700px;
+list-style:none;
+
+}
+
+li{
+display:inline;
+list-type:none;
+list-style:none;
+
+}
+
+.glideebutton ul{
+    
+    list-style:none;
+}
+
+a.glidebutton{
+list-style:none;
+display: inline-block;
+position: relative;
+color: #4A4A4A; /* default color */
+background: #ececec; /* default bg color */
+text-decoration: none;
+font: bold 14px Arial; /* font settings */
+letter-spacing: 2px; /* font settings */
+overflow: hidden;
+height: 30px; /* height of each button */
+width:160px;
+text-align: center;
+border-radius: 5px; /* border radius */
+-moz-transition: all 0.3s ease-in-out; /* Enable CSS transition between property changes */
+-webkit-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+a.glidebutton > span:first-child{ /* first span inside button */
+position: relative;
+list-style:none;
+
+display: block;
+height: 100%;
+padding: 6px; /* padding of button */
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+-moz-transition: all 0.3s ease-in-out; /* Enable CSS transition between property changes */
+-webkit-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+a.glidebutton > span:first-child:after{ /* CSS generated content */
+list-style:none;
+
+content: attr(data-text); /* Duplicate text of span markup */
+display: block;
+width: 100%;
+height: 100%;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+padding: inherit;
+position: absolute;
+top:100%;
+left:0;
+}
+
+a.glidebutton:hover{
+color: black; /* color of button on hover */
+background:#80F8E4; /* bg color of button on hover */
+box-shadow: 0 0 4px green inset;
+}
+
+a.glidebutton:hover > span:first-child{
+-moz-transform: translateY(-100%);
+-webkit-transform: translateY(-100%);
+-ms-transform: translateY(-100%);
+-o-transform: translateY(-100%);
+transform: translateY(-100%);
+}
+
+
+
+
+/*-----------------------------------------HOME PAGE----------------------------------------------------*/
+
+
+
+#home{
+    
+    position:absolute;
+}
+
+.logo{
+    
+    position:absolute;
+    top:-50px;
+    width:30%;
+    left:595px;
+}
+
+.info{
+    font-family:serifa;
+    font-weight:lighter;
+    position:absolute;
+    top:185px;
+    left:235px;
+    width:100%;
+    font-size:1.6em;
+}
+
+
+
+
+
+.bigface{
+    
+    position:absolute;
+    left:10%;
+     width:30%;
+    top:-280px;
+}
+
+
+
+
+
+.bigface:hover,
+.bigface:focus {
+	-webkit-animation-name: turn;
+	-webkit-animation-duration: 0.8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+.shake {
+	display:inline-block
+}
+
+@-webkit-keyframes turn {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+.button {
+    padding: 1px 5px 3px 5px;
+    background: pink;
+    color: #FFF;
+    border-radius:3px;
+    position:absolute;
+    top:560px;
+    left:1230px;
+}
+
+
+
+.button:hover{
+    opacity: 0.5;
+}
+
+
+
+/*-----------------------------------------CHOOSE TYPE PAGE----------------------------------------------------*/
+
+#choosetype{
+    
+       color: DimGray;
+
+    
+}
+
+.choose_type{
+    
+    font-size:3.2em;
+    font-family:serifa;
+    letter-spacing:2px;
+    position:absolute;
+    top:25%;
+    left:30%;
+    
+    }
+
+
+#choose_aging {
+    background-image:url(images/type1.png);
+    display:block;
+    height:300px;
+    text-indent:-9999px;
+    width:250px;
+     position:absolute;
+    top:35%;
+    left:25%;
+}
+
+#choose_brighten {
+    background-image:url(images/type2.png);
+    display:block;
+    height:300px;
+    text-indent:-9999px;
+    width:250px;
+     position:absolute;
+     top:35%;
+    left:41%;
+}
+
+#choose_clean {
+    background-image:url(images/type3.png);
+    display:block;
+    height:300px;
+    text-indent:-9999px;
+    width:250px;
+     position:absolute;
+      top:35%;
+    left:58%
+}
+
+
+#choose_aging:hover{
+    opacity: 0.5;
+}
+
+
+#choose_brighten:hover{
+    opacity: 0.5;
+}
+
+
+#choose_clean:hover{
+    opacity: 0.5;
+}
+
+
+/*--------------choose age recipe PAGE----------------------------*/
+
+#aging{
+            position:absolute;
+            top:-230px;
+            left:-63px;
+             width:970px;
+
+
+}
+
+.aging_mask{
+    
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    position:absolute;
+    top:120px;
+    color:#C5556F;
+    left:300px;
+    
+
+}
+
+
+
+.choose_aging_mask{
+    font-size:2em;
+    position:absolute;
+    top:170px;
+    left:300px;
+    
+    
+}
+.link{
+    position:absolute;
+    top:250px;
+    left:300px;
+    width:120%;
+    
+}
+
+
+
+
+
+
+
+#age_mask1:hover{
+    opacity: 0.5;
+}
+#age_mask2:hover{
+    opacity: 0.5;
+}
+#age_mask3:hover{
+    opacity: 0.5;
+}
+
+
+
+/*--------------aging recipe1 PAGE----------------------------*/
+
+#agingmask1 {
+    
+    background:#FCF4F6;
+                
+}
+
+.title{
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    color:#C5556F;
+    position:absolute;
+    top:-150px;
+    left:300px;
+}
+
+#ingredient_agingmask_1{
+    
+    position:absolute;
+    left:840px;
+    top:-50px;
+}
+
+.pic{
+    position:absolute;
+    border-radius:10px;
+    width:30%;
+    left:300px;
+    top:-50px;
+}
+
+.l1{
+     
+     text-indent: 7.1px;
+    list-style-type: square;
+
+}
+.list:last-child {
+    list-style-type: square;
+    text-indent:500px;
+
+    list-style-type: circle;
+}
+.list{
+    list-style-type: circle;
+    position:relative;
+    width:100.9%;
+    height:10%;
+    top:50px;
+    left:840px;
+    text-indent: 1px;
+
+    
+}
+
+
+.howtomask{
+    
+    position:absolute;
+    left:280px;
+    top:270px;
+    width:70%;
+}
+
+
+
+/*--------------aging recipe2 PAGE----------------------------*/
+
+.pic1{
+      position:absolute;
+    border-radius:10px;
+    width:30%;
+    left:300px;
+    top:-50px;;
+}
+
+.list1{
+    padding:20px;
+    top:50px;
+    left:840px;
+    width:195px;
+    text-indent: 3.1px;
+
+}
+
+.list1 li{
+    height:100px;
+    margin-top:10px;;
+    padding:10px;
+    position:relative;
+    display:inline;
+
+    
+}
+
+.ingredient_agingmask_2{
+    position:absolute;
+    top:250px;
+    left:840px;
+    
+}
+
+
+
+.run{
+    
+    position:absolute;
+    height: auto;
+    width: 25%;
+    right:-6000px;
+    top:15%;
+    
+}
+.run:hover {
+  
+-webkit-transition: 15s ease;
+-moz-transition: 15s ease;
+-o-transition: 15s ease;
+-ms-transition: 15s ease;
+transition: 10s ease;  
+position:absolute;;
+  top: 0%;
+  right:1000px;
+}
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------brighted----------------------------------------------------*/
+
+.link2{
+    position:absolute;
+    top:250px;
+    left:220px;
+    width:120%;
+    
+}
+
+#brighten{
+    position:absolute;
+     top:-30px;
+      width:970px;
+      
+    
+}
+
+.title1{
+    
+    position:absolute;
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    position:absolute;
+    top:140px;
+    color:#DAA520;
+    left:220px;
+    
+    
+
+  }
+  
+ 
+
+.choose_recipe{
+    
+    position:absolute;
+    font-size:2em;
+    position:absolute;
+    top:190px;
+    left:220px
+}
+
+#brighten_mask1:hover{
+    opacity: 0.5;
+}
+#brighten_mask2:hover{
+    opacity: 0.5;
+}
+#brighten_mask3:hover{
+    opacity: 0.5;
+}
+
+
+/*--------------bright 1----------------------------*/
+
+
+.title11{
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    color:#DAA520;
+    position:absolute;
+    top:100px;
+    left:300px;
+}
+
+
+.ingredient_brightmask{
+   position:absolute;
+    top:250px;
+    left:840px;
+    
+    
+}
+
+.howto_brightmask{
+    position:absolute;
+    left:300px;
+    top:530px;
+    width:70%;
+}
+
+/*--------------bright 2----------------------------*/
+
+.ingredient_brightmask_{
+
+   position:absolute;
+    top:250px;
+    left:840px;
+    
+    
+}
+
+
+
+#fooObject {
+ /* simple box */
+ position:absolute;
+ left:0px;
+ top:8em;
+ width:5em;
+ white-space:nowrap;
+}
+
+
+
+/*--------------bright 3----------------------------*/
+
+.pic{
+    
+    position:absolute;
+    
+}
+
+.ingredient_brightmask_3{
+   position:absolute;
+    top:250px;
+    left:840px;
+    
+}
+
+.howto_brightmask{
+    width:60%;
+}
+
+
+
+/*-------------------------------------clean----------------------------------------------------*/
+
+
+
+.link3{
+    position:absolute;
+    top:250px;
+    left:220px;
+    width:120%;
+    
+}
+#clean{
+    position:absolute;
+    top:-30px;
+    width:970px;
+      
+    
+}
+
+.title2{
+    
+    position:absolute;
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    position:absolute;
+    top:100px;
+    color:teal;
+    left:180px;
+    
+    
+
+}
+
+.title3{
+    
+    position:absolute;
+    font-size:4em;
+    font-family:serifa;
+    letter-spacing:2px;
+    position:absolute;
+    top:140px;
+    color:teal;
+    left:220px;
+    
+    
+
+}
+
+.choose_recipe1{
+    
+    position:absolute;
+    font-size:2em;
+    position:absolute;
+    top:190px;
+    left:220px
+}
+
+
+
+
+#clean_mask1:hover{
+    opacity: 0.5;
+}
+#clean_mask2:hover{
+    opacity: 0.5;
+}
+#clean_mask3:hover{
+    opacity: 0.5;
+}
+
+
+}
+
+
+/*--------------credit----------------------------*/
+
+
+#credit{
+    
+    position:absolute;
+}
+
+.list3{
+    position:absolute;
+    top:240px;
+    left:15%;
+    width:70%;
+}

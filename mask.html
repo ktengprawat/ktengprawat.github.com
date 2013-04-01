@@ -76,6 +76,17 @@
     $(this).stop(true).fadeTo("slow", 1);
 });
 
+
+$(function(){
+         jQuery('#showall').click(function(){
+               jQuery('.targetDiv').show();
+        });
+        jQuery('.showSingle').click(function(){
+              jQuery('.targetDiv').hide();
+              jQuery('#div'+$(this).attr('target')).show();
+        });
+});
+
 	</script>
 </head>
 
@@ -655,6 +666,21 @@
     					<li> Jamie. "DIY Beauty: Skin Brightening Papaya Mask." The Big Organic Box RSS. N.p., 21 Nov. 2012. Web. 17 Mar. 2013. </li>
 
     					 </ul>
+    					 
+    					 
+    					 		<div class="Buttons">
+<a  id="showall">All</a>
+<a  class="showSingle" target="1">Div 1</a>
+<a  class="showSingle" target="2">Div 2</a>
+<a  class="showSingle" target="3">Div 3</a>
+<a  class="showSingle" target="4">Div 4</a>
+</div>
+
+<div id="div1" class="targetDiv">Lorum Ipsum1</div>
+<div id="div2" class="targetDiv">Lorum Ipsum2</div>
+<div id="div3" class="targetDiv">Lorum Ipsum3</div>
+<div id="div4" class="targetDiv">Lorum Ipsum4</div>
+	
 			</div>					
 			</div>
 
