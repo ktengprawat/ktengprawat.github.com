@@ -3,25 +3,25 @@
    height: 220px;
    margin: 10px;
    float: left;
-   border: 10px solid #fff;
+   border: 1.5px solid MediumTurquoise;
    overflow: hidden;
    position: relative;
    text-align: center;
    -webkit-box-shadow: 1px 1px 2px #e6e6e6;
    -moz-box-shadow: 1px 1px 2px #e6e6e6;
-   box-shadow: 1px 1px 2px #e6e6e6;
+   box-shadow: 1px 1px 20px #e6e6e6;
    cursor: default;
    background: #fff url(../images/bgimg.jpg) no-repeat center center;
    border-radius:20px;
 }
 .view .mask,.view .content {
    width: 340px;
-   height: 200px;
+   height: 220px;
    position: absolute;
    overflow: hidden;
    top: 0;
    left: 0;
-   border-radius:5px;
+   border-radius:20px;
 
 }
 .view img {
@@ -38,7 +38,7 @@
    padding: 3px;
    background: rgba(0, 0, 0, 0.8);
    margin: 0 0px 0 0;
-   left:7%;
+   left:10%;
    top:10%;
 }
 .view p {
@@ -50,7 +50,7 @@
    padding: 0px 10px 10px;
    text-align: center;
       width:83%;
-      left:4%;
+      left:8%;
       top:13%;
 
 }

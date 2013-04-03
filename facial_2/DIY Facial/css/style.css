@@ -7,7 +7,24 @@
 
 .link{
     position:absolute;
-    top:250px;
+    top:30%;
+    left:300px;
+    width:120%;
+    
+}
+
+
+.link2{
+    position:absolute;
+    top:30%;
+    left:300px;
+    width:120%;
+    
+}
+
+.link3{
+    position:absolute;
+    top:10%;
     left:300px;
     width:120%;
     
@@ -19,15 +36,6 @@
 
 
 
-#age_mask1:hover{
-    opacity: 0.5;
-}
-#age_mask2:hover{
-    opacity: 0.5;
-}
-#age_mask3:hover{
-    opacity: 0.5;
-}
 
 
 
@@ -35,11 +43,7 @@
 
 
 
-
-
-
-
-
+/*----------------------------------------Dont touch----------------------------------------------------*/
 
 .st-container {
 	position: absolute;
@@ -83,6 +87,9 @@
 	z-index: 9;
 	bottom: 0;
 }
+
+
+/*-------------------------------------my nav----------------------------------------------------*/
 
 #st-control-1, #st-control-1 + a {
 	top:5%;
@@ -152,6 +159,7 @@
 	background: #fff;
 	overflow: hidden;
 } 
+/*-------------------------------------page check in ----------------------------------------------------*/
 
 #st-control-1:checked ~ .st-scroll {
 	-webkit-transform: translateY(0%);
@@ -191,41 +199,19 @@
 
 
 /* Content elements */
-
-.st-deco{
-	width: 00px;
-	height: 200px;
+.st-panel p {
 	position: absolute;
-	top: 0px;
-	left: 50%;
-	margin-left: -100px;
-	background: #fa96b5;
-	-webkit-transform: translateY(-50%) rotate(45deg);
-	-moz-transform: translateY(-50%) rotate(45deg);
-	-o-transform: translateY(-50%) rotate(45deg);
-	-ms-transform: translateY(-50%) rotate(45deg);
-	transform: translateY(-50%) rotate(45deg);
-}
-
-[data-icon]:after {
-    content: attr(data-icon);
-    font-family: 'RaphaelIcons';
-    color: #fff;
-	text-shadow: 1px 1px 1px rgba(151,24,64,0.2);
-	position: absolute;
-	width: 200px;
-	height: 200px;
-	line-height: 200px;
 	text-align: center;
-	font-size: 90px;
-	top: 50%;
-	left: 50%;
-	margin: -100px 0 0 -100px;
-	-webkit-transform: rotate(-45deg) translateY(25%);
-	-moz-transform: rotate(-45deg) translateY(25%);
-	-o-transform: rotate(-45deg) translateY(25%);
-	-ms-transform: rotate(-45deg) translateY(25%);
-	transform: rotate(-45deg) translateY(25%);
+	font-size: 1.20em;
+	line-height: 22px;
+	color: Dimgray;
+	z-index: 2;
+	padding: 0;
+	width: 60%;
+	left: 23%;
+	top: 20%;
+	margin: 10px 0 0 0;
+	-webkit-backface-visibility: hidden;
 }
 
 .st-panel h2 {
@@ -235,7 +221,7 @@
 	font-size: 54px;
 	font-weight: 900;
 	width: 80%;
-	left: 10%;
+	left: 12%;
 	text-align: center;
 	line-height: 50px;
 	margin: -70px 0 0 0;
@@ -243,6 +229,9 @@
 	top: 20%;
 	-webkit-backface-visibility: hidden;
 }
+
+
+/*-------------------------------------scrolling Down pages----------------------------------------------------*/
 
 #st-control-1:checked ~ .st-scroll #st-panel-1 h2,
 #st-control-2:checked ~ .st-scroll #st-panel-2 h2,
@@ -310,20 +299,11 @@
 	}
 }
 
-.st-panel p {
-	position: absolute;
-	text-align: center;
-	font-size: 16px;
-	line-height: 22px;
-	color: #8b8b8b;
-	z-index: 2;
-	padding: 0;
-	width: 50%;
-	left: 25%;
-	top: 20%;
-	margin: 10px 0 0 0;
-	-webkit-backface-visibility: hidden;
-}
+
+
+
+/*-------------------------------------scrolling up pages----------------------------------------------------*/
+
 #st-control-1:checked ~ .st-scroll #st-panel-1 p,
 #st-control-2:checked ~ .st-scroll #st-panel-2 p,
 #st-control-3:checked ~ .st-scroll #st-panel-3 p,
@@ -390,48 +370,96 @@
 		opacity: 1;
 	}
 }
+/*---------------------------------------picture animation ----------------------------------------------------*/
 
 #st-control-2:checked ~ .st-scroll #st-panel-2 .link {
-  -webkit-animation-name: stylie-transform-keyframes;
-  -webkit-animation-duration: 900ms;
-  -webkit-animation-delay: 40ms;
+  -webkit-animation-name: moveleft;
+  -webkit-animation-duration: 1100ms;
+  -webkit-animation-delay: 60ms;
   -webkit-animation-fill-mode: forwards;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: alternate;
   -webkit-transform-origin: 0 0;
-  animation-name: stylie-transform-keyframes;
-  animation-duration: 900ms;
+  animation-name: moveleft;
+  animation-duration: 1100ms;
   animation-delay: 0ms;
   animation-fill-mode: forwards;
   animation-timing-function: linear;
   animation-iteration-count: alternate;
   transform-origin: 0 0;
 }
-@-webkit-keyframes stylie-transform-keyframes {
-  0% {-webkit-transform:translateX(-1000px) translateY(100px) rotate(0deg) translate(-50%, -50%);-webkit-animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
-  100% {-webkit-transform:translateX(780px) translateY(100px) rotate(0deg) translate(-50%, -50%);}
+@-webkit-keyframes moveleft {
+  0% {-webkit-transform:translateX(-1000px) translateY(150px) rotate(0deg) translate(-50%, -50%);-webkit-animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  100% {-webkit-transform:translateX(780px) translateY(150px) rotate(0deg) translate(-50%, -50%);}
 }
 
 
+#st-control-3:checked ~ .st-scroll #st-panel-3 .link2 {
+-webkit-animation-name: fromright;
+  -webkit-animation-duration: 900ms;
+  -webkit-animation-delay: 40ms;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: alternate;
+  -webkit-transform-origin: 0 0;
+  animation-name: fromright;
+  animation-duration: 1100ms;
+  animation-delay: 40ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: alternate;
+  transform-origin: 0 0;
+}
+@-webkit-keyframes fromright {
+  0% {-webkit-transform:translateX(1000px) translateY(150px) rotate(0deg) translate(-50%, -50%);-webkit-animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  100% {-webkit-transform:translateX(780px) translateY(150px) rotate(0deg) translate(-50%, -50%);}
+}
+
+
+
+#st-control-4:checked ~ .st-scroll #st-panel-4 .link3 {
+  -webkit-animation-name: moveleft;
+  -webkit-animation-duration: 1100ms;
+  -webkit-animation-delay: 80ms;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: alternate;
+  -webkit-transform-origin: 0 0;
+  animation-name: moveleft;
+  animation-duration: 1100ms;
+  animation-delay: 60ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: alternate;
+  transform-origin: 0 0;
+}
+@-webkit-keyframes moveleft {
+  0% {-webkit-transform:translateX(-1000px) translateY(150px) rotate(0deg) translate(-50%, -50%);-webkit-animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  100% {-webkit-transform:translateX(760px) translateY(150px) rotate(0deg) translate(-50%, -50%);}
+}
+
+
+/*-----------------------------------------pic animation end ----------------------------------------------------*/
 
 .st-color,
 .st-deco{
 	background: #DCF8EE;
 }
-.st-color [data-icon]:after {
-	color: #fa96b5;
-}
-.st-color .st-deco {
-	background: #fff;
-}
+
+
 .st-color h2 {
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 } 
 .st-color p {
-	color: #fff;
-	color: rgba(255,255,255,0.8);
+	color:Dimgray;
 }
+
+
+
+
+/*----------------------------------------responsive pages----------------------------------------------------*/
+
 
 @media screen and (max-width: 520px) {
 	.st-panel h2 {
