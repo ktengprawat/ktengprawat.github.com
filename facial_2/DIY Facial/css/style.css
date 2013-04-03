@@ -1,8 +1,38 @@
-#allhere{
-    left:30%;
+.bigface{
+    
+  
     position:absolute;
-    top:100%;
+    top:23%;
+    left:20%;
+    width:30%;
+    height:70%;
 
+
+}
+
+
+
+.description{
+    position:absolute;
+    left:55%;
+    top:40%;
+    width:30%;
+    
+}
+
+.direct{
+    
+    position:absolute;
+    left:55%;
+    top:55%;
+    width:30%;
+}
+.why{
+    
+      position:absolute;
+    left:55%;
+    top:30%;
+    width:30%;
 }
 
 .link{
