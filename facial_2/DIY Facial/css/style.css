@@ -58,12 +58,22 @@
     left:300px;
     width:120%;
     
+    
+   
 }
+
+
+
+/*---------------------------------------aging recipe style----------------------------------------------------*/
+
 .list{
     position:absolute;
-    top:65%;
-    left:200px;
+    top:110%;
+    left:3%;
     width:120%;
+   font-family:helvetica;
+
+
     
 }
 
@@ -71,34 +81,277 @@
 
 .title{
     
-    top:62%;
-     left:200px;
+    top:95%;
+     left:4%;
     position:absolute;
-    width:170px;
+    width:100%;
     height:110%;
-
+    font-size:1.4em;
+    color:MediumTurquoise;
 }
-.howtomask1{
-    top:290px;
-    width:600px;            
+
+#howtomask1{
+    top:128%;
+    width:15%;            
     position:absolute;
     height:100px;
+    left:3%;
+    font-weight:lighter;
+    font-family:helvetica;
 
+    text-align:center;
+    }
+
+
+
+
+
+
+
+/*--recipe age 2 --*/
+
+.title2{
+    
+
+    top:95%;
+     left:25%;
+    position:absolute;
+    width:100%;
+    height:110%;
+    font-size:1.4em;
+    color:MediumTurquoise;
+    
+    }
+    
+
+.list2{
+   position:absolute;
+    top:110%;
+    left:24%;
+    width:13%;
+   font-family:helvetica;
+
+    
+}
+
+
+#howtomask2{
+     top:143%;
+    width:15%;            
+    position:absolute;
+    height:100px;
+    left:23%;
+    font-weight:lighter;
+    font-family:helvetica;
+
+    text-align:center;
 }
 
 
 
+/*--recipe age 3 --*/
+
+.title3{
+   top:95%;
+     left:46%;
+    position:absolute;
+    width:100%;
+    height:110%;
+    font-size:1.4em;
+    color:MediumTurquoise;
+
+}
+
+.list3{
+    position:absolute;
+    top:110%;
+    left:46%;
+    width:13%;
+   font-family:helvetica;
+    
+}
+
+
+#howtomask3{
+    top:130%;
+    width:15%;            
+    position:absolute;
+    height:100px;
+    left:44%;
+    font-weight:lighter;
+    font-family:helvetica;
+
+    text-align:center;
+    
+}
+
+/*---------------------------------------brightening recipe style----------------------------------------------------*/
+
+#howtomask21{
+    top:135%;
+    width:15%;            
+    position:absolute;
+    height:100px;
+    left:1%;
+    font-weight:lighter;
+    font-family:helvetica;
+
+    text-align:center;
+}
+
+#howtomask22{
+     top:135%;
+    width:15%;            
+    position:absolute;
+    height:100px;
+    left:23%;
+    font-weight:lighter;
+    font-family:helvetica;
+
+    text-align:center;
+}
+
+#howtomask23{
+    top:135%;
+    width:15%;            
+    position:absolute;
+    height:100px;
+    left:44%;
+    font-weight:lighter;
+    font-family:helvetica;
+
+    text-align:center;
+}
 
 
 
+/*---------------------------------------Clean recipe style----------------------------------------------------*/
+.title31{
+    
+    top:95%;
+     left:4%;
+    position:absolute;
+    width:100%;
+    height:110%;
+    font-size:1.4em;
+    color:MediumTurquoise;
+
+}
+
+.list31{
+    position:absolute;
+    top:110%;
+    left:3%;
+    width:120%;
+   font-family:helvetica;
+
+    
+}
+#howtomask31{
+    top:135%;
+    width:15%;            
+    position:absolute;
+    height:100px;
+    left:1%;
+    font-weight:lighter;
+    font-family:helvetica;
+
+    text-align:center;
+}
+
+
+.title32{
+    
+    top:95%;
+     left:21%;
+    position:absolute;
+    width:100%;
+    height:110%;
+    font-size:1.4em;
+    color:MediumTurquoise;
+
+}
+
+.list32{
+    position:absolute;
+    top:110%;
+    left:20%;
+    width:13%;
+   font-family:helvetica;
+
+    
+}
+
+#howtomask32{
+    top:135%;
+    width:15%;            
+    position:absolute;
+    height:100px;
+    left:18%;
+    font-weight:lighter;
+    font-family:helvetica;
+
+    text-align:center;
+}
+.title33{
+    
+    top:95%;
+     left:38.5%;
+    position:absolute;
+    width:100%;
+    height:110%;
+    font-size:1.4em;
+    color:MediumTurquoise;
+
+}
+
+.list33{
+position:absolute;
+    top:110%;
+    left:38%;
+    width:13%;
+   font-family:helvetica;
+    
+}
+#howtomask33{
+    top:135%;
+    width:15%;            
+    position:absolute;
+    height:100px;
+    left:36%;
+    font-weight:lighter;
+    font-family:helvetica;
+
+    text-align:center;
+}
 
 
 
+/*--credit --*/
 
+.creditlist{
+    
+    position:absolute;
+    width:58%;
+    top:25%;
+    left:22%;
+}
 
+.me{
+    position:absolute;
+    left:40%;
+    top:60%;
+    font-weight:bolder;
+}
 
-
-
+.me2{
+    position:absolute;
+    left:46%;
+    top:57.6%;
+    font-weight:lighter;
+    font-family:helvetica;
+    font-size:.97em;
+}
 /*----------------------------------------Dont touch----------------------------------------------------*/
 
 .st-container {
