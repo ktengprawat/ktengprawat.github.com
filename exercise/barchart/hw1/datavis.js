@@ -22,14 +22,14 @@ $(function() {
       var domesticFraction = domestic / maxDomestic;
       
            
-      var incidentWidth = incidentFraction *5000;
+      var incidentWidth = incidentFraction *1000;
       var domesticWidth = domesticFraction *500;
       
 
       
       
       var row = $("<div>").addClass("row");
-  	  var div =$("<div>").addClass("name").text(name)
+  	  var div =$("<div>").addClass("name").text(place)
   	  					
   	  					.appendTo(row)
   	  					
