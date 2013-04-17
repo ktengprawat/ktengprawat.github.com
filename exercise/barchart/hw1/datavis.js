@@ -22,7 +22,7 @@ $(function() {
       var domesticFraction = domestic / maxDomestic;
       
            
-      var incidentWidth = incidentFraction *1000;
+      var incidentWidth = incidentFraction *2000;
       var domesticWidth = domesticFraction *500;
       
 
