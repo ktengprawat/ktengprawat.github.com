@@ -63,34 +63,35 @@ body{
 
 #container{
     position:absolute;
-    top:17.5%;
-    left:15%;
-     margin-bottom:120px;
+    top:18.5%;
+    left:10%;
+     margin-bottom:150px;
 
     
 }      
 img {
 
    
-  max-width: 90%;   
+  max-width: 170%;   
   width: auto;   
   height: auto;
    
    list-style:none;
    margin-top:10%;
    margin-left:auto;
-     margin-bottom:100px;
+   margin-bottom:10%;
 
    
   }
 
 
 li{
-  max-width: 10%;   
-  width: 90px;   
+  max-width: 170%;   
+  width: 80px;   
   height: 140px; 
   list-style:none;
-  margin-left:0%;
+  margin-left:5%;
+  margin-bottom:5.5%;
    margin-top:auto;
 
     float:left;
@@ -116,6 +117,7 @@ img:hover {
     top:19%;
     left:4.5%;
     color:Dimgray;
+    font-size:1.7em;
 }
 
 .genre{
@@ -131,11 +133,11 @@ img:hover {
 
 
 .action, .sci{
-    font-size:.85em;
+    font-size:1.2em;
     background-color:Gainsboro;
     border-radius:5px;
-    width:80px;
-    height:15px;
+     width:100px;
+    height:25px;
     margin-bottom:4px;
     border-style:none;
 
@@ -146,11 +148,11 @@ img:hover {
 
 
 .adventure, .animation, .fantasy {
-     font-size:.85em;
+     font-size:1.2em;
     background-color:Gainsboro;
     border-radius:5px;
-    width:80px;
-    height:15px;
+    width:100px;
+    height:25px;
     margin-bottom:4px;
     border-style:none;
 
@@ -164,11 +166,12 @@ img:hover {
 .stu{
     
     position:absolute;
-    top:39%;
+    top:42%;
     left:4.5%;
-    font-size:1em;
+    font-size:1.5em;
     font-family:Frutiger;
         color:Dimgray;
+
 
 }
 
@@ -176,7 +179,7 @@ img:hover {
     
     
     float:left;
-    margin-top:22.5%;
+    margin-top:24.5%;
     width:8%;
     height:5%;
     left:30%;
@@ -187,22 +190,21 @@ img:hover {
 
 
 .wb, .disney, .fox,.sony{
-    font-size:.85em;
+    font-size:1.2em;
     background-color:Gainsboro;
     border-radius:5px;
-    width:80px;
-    height:15px;
+     width:100px;
+    height:25px;
     margin-bottom:4px;
     border-style:none;
-
 }
 
 .sto{
     
     position:absolute;
-    top:55%;
+    top:61.5%;
     left:4.5%;
-    font-size:1em;
+    font-size:1.5em;
     font-family:Frutiger;
         color:Dimgray;
 
@@ -212,7 +214,7 @@ img:hover {
     
     
     float:left;
-    margin-top:31.5%;
+    margin-top:35%;
     width:7%;
     height:5%;
     left:30%;
@@ -222,11 +224,11 @@ img:hover {
 }
 
 .frombook, .sequel, .original, .remake{
-    font-size:.85em;
+   font-size:1.2em;
     background-color:Gainsboro;
     border-radius:5px;
-    width:80px;
-    height:15px;
+     width:100px;
+    height:25px;
     margin-bottom:4px;
     border-style:none;
 
@@ -237,9 +239,9 @@ img:hover {
 .yea{
     
     position:absolute;
-    top:71.5%;
+    top:80.5%;
     left:4.5%;
-    font-size:1em;
+    font-size:1.5em;
     font-family:Frutiger;
         color:Dimgray;
 
@@ -250,21 +252,19 @@ img:hover {
     
     
     float:left;
-    margin-top:40%;
+    margin-top:45.5%;
     width:7%;
     height:5%;
-    left:30%;
     top:20px;
-    margin-left:-91px;
+    margin-left:-112px;
     
 }
 .eight, .nine, .ten, .ele, .twe{
-    font-size:.85em;
+   font-size:1.2em;
     background-color:Gainsboro;
     border-radius:5px;
-    width:80px;
-    height:15px;
+     width:100px;
+    height:25px;
     margin-bottom:4px;
     border-style:none;
-
 }
