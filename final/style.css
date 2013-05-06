@@ -25,9 +25,9 @@ tr {
 .brand{
     position:absolute;
     font-size:3.5em;
-    top:1.75%;
+    top:2.5%;
     left:180px;
-    color:black;
+    color:DarkTurquoise;
     text-transform:uppercase;  
     font-weight:bolder;  
     font-family:helvetica;
@@ -55,7 +55,7 @@ body{
     
     position:absolute;
     left:14.5%;
-    top:10%;
+    top:10.5%;
     color:dimgray;
     font-weight:lighter;
     font-size:1.7em;
@@ -139,7 +139,7 @@ img:hover {
 
 .action, .sci{
     font-size:1.2em;
-    background-color:Gainsboro;
+    background-color:PaleTurquoise;
     border-radius:5px;
      width:100px;
     height:25px;
@@ -154,7 +154,7 @@ img:hover {
 
 .adventure, .animation, .fantasy {
      font-size:1.2em;
-    background-color:Gainsboro;
+    background-color:PaleTurquoise;
     border-radius:5px;
     width:100px;
     height:25px;
@@ -196,7 +196,7 @@ img:hover {
 
 .wb, .disney, .fox,.sony{
     font-size:1.2em;
-    background-color:Gainsboro;
+    background-color:PaleTurquoise;
     border-radius:5px;
      width:100px;
     height:25px;
@@ -230,7 +230,7 @@ img:hover {
 
 .frombook, .sequel, .original, .remake{
    font-size:1.2em;
-    background-color:Gainsboro;
+    background-color:PaleTurquoise;
     border-radius:5px;
      width:100px;
     height:25px;
@@ -266,7 +266,7 @@ img:hover {
 }
 .eight, .nine, .ten, .ele, .twe{
    font-size:1.2em;
-    background-color:Gainsboro;
+    background-color:PaleTurquoise;
     border-radius:5px;
      width:100px;
     height:25px;
