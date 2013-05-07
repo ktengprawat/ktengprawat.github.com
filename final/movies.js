@@ -442,6 +442,6 @@ var movies = [ {
     "genre": "Animation",
     "year": "2008",
     "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/p25_zps56e303a3.jpg"  
-  },
+  }
   
 ]
