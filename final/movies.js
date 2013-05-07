@@ -29,6 +29,7 @@ var movies = [ {
     "year": "2008",
     "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/p19_zps3fcb9219.jpg"
   },
+
   {
     "grossing": 631744560,
     "director": " Mark Osborne",
@@ -398,5 +399,49 @@ var movies = [ {
     "year": "2012",
     "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/p17_zps8595100b.jpg"
     
-  }
+  },
+    {
+    "movie": "MADAGASCAR",
+    "other": "Sequel",
+    "studio": "Paramount",
+    "genre": "Animation",
+    "year": "2008",
+    "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/ScreenShot2013-05-06at113318PM_zps122ba59f.png"  
+  },
+    {
+    "movie": "Quantum of Solace",
+    "other": "Sequel",
+    "studio": "Sony/ Columbia",
+    "genre": "Action",
+    "year": "2008",
+    "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/ScreenShot2013-05-06at113632PM_zps8c694319.png"  
+  },
+    {
+    "movie": "Iron man",
+
+    "other": "From book",
+    "studio": "Paramount",
+    "genre": "Action",
+    "year": "2008",
+    "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/ScreenShot2013-05-06at113919PM_zps4f2bdca0.png"  
+  },
+    {
+    "movie": "Wall E",
+
+    "other": "Original",
+    "studio": "Buena Vista",
+    "genre": "Animation",
+    "year": "2008",
+    "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/ScreenShot2013-05-06at113904PM_zps6b642f58.png"  
+  },
+    {
+    "movie": "MADAGASCAR",
+
+    "other": "Sequel",
+    "studio": "Paramount",
+    "genre": "Animation",
+    "year": "2008",
+    "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/p25_zps56e303a3.jpg"  
+  },
+  
 ]
