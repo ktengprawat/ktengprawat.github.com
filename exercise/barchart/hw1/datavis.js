@@ -46,6 +46,28 @@ $(function() {
    $("body").append(row);
 
       i= i + 1;
+      
+      
+      
+      
+      
+
+
+//genre
+    
+$("button.action").on("click",function() {
+  
+  $("row").each(function() {
+     var name = $(this).data();
+     
+     if(movie.genre == "incidents") {
+        $(this).show();
+     } else {
+        $(this).hide();
+     }
+  });
+
+});
     }
   });
 
