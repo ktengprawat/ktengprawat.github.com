@@ -32,7 +32,8 @@ tr {
     font-weight:bolder;  
     font-family:helvetica;
     padding:20px;
-    text-decoration:none;    
+    text-decoration:none; 
+    text-shadow: 1px 1px 1px #000;   
     
 }
 
@@ -142,6 +143,8 @@ img:hover {
     height:20px;
     margin-bottom:6px;
     border-style:none;
+      -webkit-box-shadow: 3px 3px 1px 1px #ccc;
+  box-shadow:         3px 3px 1px 1px #ccc;
 
     
 }
@@ -156,12 +159,14 @@ img:hover {
     height:20px;
     margin-bottom:4px;
     border-style:none;
+  -webkit-box-shadow: 3px 3px 1px 1px #ccc;
+  box-shadow:         3px 3px 1px 1px #ccc;
 }
 
 
-
-
-
+.action:hover , .sci:hover, .adventure:hover, .animation:hover, .fantasy:hover{
+-webkit-transform:scale(1.07);
+}
 
 .stu{
     
@@ -196,8 +201,16 @@ img:hover {
     height:20px;
     margin-bottom:6px;
     border-style:none;
+      -webkit-box-shadow: 3px 3px 1px 1px #ccc;
+  box-shadow:         3px 3px 1px 1px #ccc;
 
 }
+
+
+.wb:hover , .disney:hover, .fox:hover, .sony:hover{
+-webkit-transform:scale(1.07);
+}
+
 
 .sto{
     
@@ -231,9 +244,14 @@ img:hover {
     height:20px;
     margin-bottom:6px;
     border-style:none;
-
+  -webkit-box-shadow: 3px 3px 1px 1px #ccc;
+  box-shadow:         3px 3px 1px 1px #ccc;
 }
 
+
+.frombook:hover , .sequel:hover, .original:hover, .remake:hover{
+-webkit-transform:scale(1.07);
+}
 
 
 .yea{
@@ -268,5 +286,12 @@ img:hover {
     height:20px;
     margin-bottom:6px;
     border-style:none;
+      -webkit-box-shadow: 3px 3px 1px 1px #ccc;
+  box-shadow:         3px 3px 1px 1px #ccc;
 
 }
+
+.eight:hover , .nine:hover, .ten:hover, .ele:hover, .twe:hover{
+-webkit-transform:scale(1.07);
+}
+

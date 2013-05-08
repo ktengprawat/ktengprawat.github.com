@@ -435,13 +435,67 @@ var movies = [ {
     "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/ScreenShot2013-05-06at113904PM_zps6b642f58.png"  
   },
     {
-    "movie": "MADAGASCAR",
+    "movie": "UP",
+
+    "other": "Original",
+    "studio": "Buena Vista",
+    "genre": "Animation",
+    "year": "2009",
+    "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/ScreenShot2013-05-08at123230PM_zps3e4bb1c5.png"  
+  },
+      {
+    "movie": "Andels & Demons",
+
+    "other": "Original",
+    "studio": "Sony/ Columbia",
+    "genre": "Thriller",
+    "year": "2009",
+    "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/ScreenShot2013-05-08at123428PM_zps37cb036f.png"  
+  },
+      {
+    "movie": "Twilight Saga: New moon",
+
+    "other": "Sequel",
+    "studio": "Summit Entrainment",
+    "genre": "Romance",
+    "year": "2009",
+    "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/twilight_saga_new_moon_xlg_zpsf751b4c4.jpg"  
+  },
+      {
+    "movie": "Sherlock Holmes",
+
+    "other": "From book",
+    "studio": "Warner Brothers",
+    "genre": "Adventure",
+    "year": "2009",
+    "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/Sherlock-Holmes-Poster_zps81a9168a.jpg"  
+  },
+      {
+    "movie": "Despicable Me",
+
+    "other": "Original",
+    "studio": "Universal",
+    "genre": "Animation",
+    "year": "2010",
+    "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/despicablemeposter05_zpsc8d7af98.jpg"  
+  },
+      {
+    "movie": "Tangled",
+
+    "other": "Original",
+    "studio": "Buena Vista",
+    "genre": "Animation",
+    "year": "2010",
+    "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/ScreenShot2013-05-08at124323PM_zpsd494a139.png"  
+  },
+      {
+    "movie": "Ironman2",
 
     "other": "Sequel",
     "studio": "Paramount",
-    "genre": "Animation",
-    "year": "2008",
-    "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/p25_zps56e303a3.jpg"  
+    "genre": "Action",
+    "year": "2010",
+    "image": "http://i1344.photobucket.com/albums/p658/ktengprawat/ScreenShot2013-05-08at124309PM_zps440b1bb6.png"  
   }
   
 ]
