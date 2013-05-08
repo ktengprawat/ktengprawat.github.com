@@ -74,6 +74,7 @@ left:200px;
     height:100%;
     left:3%;
     top:470px;
+    
 }
 
 .face2{
@@ -81,7 +82,9 @@ left:200px;
     width:22%;
     height:100%;
     left:30%;
-    top:400px;
+    top:400px;    
+    margin-bottom:500px;
+
     
 }
 
@@ -105,4 +108,26 @@ left:200px;
     
 }
 
+.final_sketch{
+    position:absolute;
+    top:450px;
+    left:860px;
+}
+
+.crimemap{
+ 
+ position:absolute;
+ top: 500px;
+ left:860px;   
+    
+}
+
+.final{
+    
+    position:absolute;
+    top:550px;
+    left:860px;
+    margin-bottom:5%;
+
+}
 
